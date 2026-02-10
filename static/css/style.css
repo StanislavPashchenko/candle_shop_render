@@ -62,7 +62,7 @@
 
      --hero-cart-top: auto;
      --hero-cart-right: -10px;
-     --hero-cart-bottom: -5px;
+     --hero-cart-bottom: -3px;
      --hero-cart-left: auto;
     /* Дополнительные переменные размеров и отступов (настройки внешнего вида) */
     --search-padding-vert: 10px;   /* вертикальные отступы внутри поля поиска */
@@ -213,7 +213,7 @@ body{
     font-size: 0.75rem;
     font-weight: 700;
     position: relative;
-    top: -4px;
+    top: 1px;
     right: -2px;
 }
 
