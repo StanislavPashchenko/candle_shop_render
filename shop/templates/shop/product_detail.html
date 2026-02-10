@@ -1,0 +1,61 @@
+{% extends 'shop/base.html' %}
+{% load i18n %}
+
+{% block content %}
+<div class="product-detail">
+    <div class="media">
+        {% if candle.image and candle.image.url %}
+            <img id="productImage" class="clickable-image" src="{{ candle.image.url }}" alt="{{ candle.name }}" onclick="openImageModal(this)">
+        {% else %}
+            <img id="productImage" class="clickable-image" src="https://picsum.photos/seed/{{ candle.pk|default:0 }}/800/600" alt="{{ candle.name }}" onclick="openImageModal(this)">
+        {% endif %}
+    </div>
+    <div class="meta">
+        <h2>{{ candle.display_name }}</h2>
+        <p class="aroma">{% trans "Категория:" %} {{ candle.category.display_name }}</p>
+        <p class="desc">{{ candle.display_description }}</p>
+        <div class="actions">
+            <strong class="price">{{ candle.price }} ₴</strong>
+            <button class="btn btn-add" data-pk="{{ candle.pk }}">{% trans "Добавить в корзину" %}</button>
+        </div>
+    </div>
+</div>
+
+<!-- Image Modal -->
+<div class="image-modal" id="imageModal">
+    <div class="modal-content" onclick="event.stopPropagation()">
+        <span class="modal-close" onclick="closeImageModal()">&times;</span>
+        <img id="modalImage" src="" alt="Product Image">
+    </div>
+</div>
+
+<script>
+function openImageModal(img) {
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('modalImage');
+    modalImg.src = img.src;
+    modal.classList.add('active');
+    document.body.classList.add('image-modal-open');
+}
+
+function closeImageModal() {
+    const modal = document.getElementById('imageModal');
+    modal.classList.remove('active');
+    document.body.classList.remove('image-modal-open');
+}
+
+const modal = document.getElementById('imageModal');
+modal.onclick = function(e) {
+    if (e.target === modal) {
+        closeImageModal();
+    }
+};
+
+document.onkeydown = function(e) {
+    if (e.key === 'Escape') {
+        closeImageModal();
+    }
+};
+</script>
+
+{% endblock %}

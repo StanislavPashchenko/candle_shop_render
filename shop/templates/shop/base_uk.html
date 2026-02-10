@@ -1,0 +1,122 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Good Karma Light</title>
+    <link rel="icon" href="{% static 'favicon.ico' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+<div class="animated-bg" aria-hidden="true">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+</div>
+<!-- Top strip removed per request -->
+
+<!-- Hero header (large banner like the reference image) -->
+<header class="hero-header">
+    <div class="hero-inner container">
+        <div class="hero-langs">
+            <a href="/" class="brand-link">
+                <img src="/static/images/logo.png" alt="Good Karma Light" class="hero-logo">
+            </a>
+        </div>
+
+        <div class="hero-center">
+            <!-- <h1 class="hero-title">Good Karma Light</h1> -->
+            <form action="{% url 'product_list' %}" method="get" class="header-search">
+                <input type="text" name="q" placeholder="Що ви шукаєте?" value="{{ request.GET.q }}">
+            </form>
+        </div>
+
+        <div class="hero-lang-switch">
+            <form action="{% url 'set_language' %}" method="post" class="lang-switch">
+                {% csrf_token %}
+                <input type="hidden" name="next" value="{{ request.get_full_path }}">
+                <button type="submit" name="language" value="uk" class="lang-btn">UK</button>
+                <button type="submit" name="language" value="ru" class="lang-btn">RU</button>
+            </form>
+        </div>
+
+        <div class="hero-cart">
+            <a href="/cart/" class="cart-link">
+                <span class="cart-icon">🛒</span>
+                <span id="cart-count" class="cart-count-bubble">{{ cart_count|default:"0" }}</span>
+            </a>
+        </div>
+    </div>
+</header>
+
+<!-- Main nav with catalog button, links and search -->
+<nav class="nav-bar">
+    <div class="container nav-inner">
+            <!-- Navigation links removed per request -->
+    </div>
+</nav>
+
+<!-- Category bar (restored) -->
+<div class="category-bar">
+    <div class="container">
+        <ul class="category-top">
+            <li><a href="{% url 'home' %}">Головна</a></li>
+            <li><a href="{% url 'product_list' %}">Всi товари</a></li>
+            <li class="category-mobile-only">
+                <button type="button" class="cat-toggle" data-action="toggle-categories" aria-haspopup="dialog" aria-expanded="false">Категорії</button>
+
+                <div class="mobile-categories" data-mobile-categories aria-hidden="true">
+                    <div class="mobile-categories__backdrop" data-action="close-categories"></div>
+                    <div class="mobile-categories__panel" role="dialog" aria-label="Категорії" tabindex="-1">
+                        <div class="mobile-categories__header">
+                            <div class="mobile-categories__title">Категорії</div>
+                            <button type="button" class="mobile-categories__close" data-action="close-categories" aria-label="Закрити">×</button>
+                        </div>
+                        <div class="mobile-categories__body">
+                            <a class="mobile-categories__link" href="{% url 'product_list' %}">Всi товари</a>
+                            {% for cat in all_categories %}
+                            <a class="mobile-categories__link" href="{% url 'product_list' %}?category={{ cat.id }}">{{ cat.display_name }}</a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="category-scroll" data-category-scroll>
+            <button class="category-scroll__btn category-scroll__btn--left" type="button" aria-label="Прокрутити вліво" data-category-scroll-btn="left">‹</button>
+            <div class="category-scroll__viewport" data-category-scroll-viewport>
+                <ul class="category-list" data-category-scroll-list>
+                    {% for cat in all_categories %}
+                    <li><a href="{% url 'product_list' %}?category={{ cat.id }}">{{ cat.display_name }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <button class="category-scroll__btn category-scroll__btn--right" type="button" aria-label="Прокрутити вправо" data-category-scroll-btn="right">›</button>
+        </div>
+        
+    </div>
+</div>
+
+<!-- bottom-bar removed; language switcher and cart moved to top brand bar -->
+<main class="site-main">
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <!-- Footer columns removed per request -->
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Good Karma Light.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="/static/js/animations.js"></script>
+</body>
+</html>

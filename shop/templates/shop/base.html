@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+{% load i18n %}
+<html lang="{{ LANGUAGE_CODE|default:'uk' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Candle Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+<div class="animated-bg" aria-hidden="true">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+</div>
+<!-- Top strip removed per request -->
+
+<!-- Hero header (large banner like the reference image) -->
+<header class="hero-header">
+    <div class="hero-inner container">
+        <div class="hero-langs">
+            <a href="/" class="brand-link">
+                <img src="/static/images/logo.png" alt="Good Karma Light" class="hero-logo">
+            </a>
+        </div>
+
+        <div class="hero-center">
+            <h1 class="hero-title">Good Karma Light</h1>
+            <form action="{% url 'product_list' %}" method="get" class="header-search">
+                <input type="text" name="q" placeholder="Що ви шукаєте?" value="{{ request.GET.q }}">
+            </form>
+        </div>
+
+        <div class="hero-lang-switch">
+            <form action="{% url 'set_language' %}" method="post" class="lang-switch">
+                {% csrf_token %}
+                <input type="hidden" name="next" value="{{ request.get_full_path }}">
+                <button type="submit" name="language" value="uk" class="lang-btn">UK</button>
+                <button type="submit" name="language" value="ru" class="lang-btn">RU</button>
+            </form>
+        </div>
+
+        <div class="hero-cart">
+            <a href="/cart/" class="cart-link">
+                <span class="cart-icon">🛒</span>
+                <span id="cart-count" class="cart-count-bubble">{{ cart_count|default:"0" }}</span>
+            </a>
+        </div>
+    </div>
+</header>
+
+<!-- Main nav with catalog button, links and search -->
+<nav class="nav-bar">
+    <div class="container nav-inner">
+        <!-- Navigation links removed per request -->
+    </div>
+</nav>
+
+<!-- Category bar (restored) -->
+<div class="category-bar">
+    <div class="container">
+        <ul class="category-list">
+            <li><a href="{% url 'product_list' %}">товары</a></li>
+            {% for cat in all_categories %}
+            <li><a href="{% url 'product_list' %}?category={{ cat.id }}">{{ cat.display_name }}</a></li>
+            {% endfor %}
+        </ul>
+        
+    </div>
+</div>
+
+<!-- bottom-bar removed; language switcher and cart moved to top brand bar -->
+
+<main class="site-main">
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+</main>
+
+<footer class="site-footer">
+    <p>© 2026 Cozy Candle</p>
+</footer>
+
+<script src="/static/js/animations.js"></script>
+</body>
+</html>

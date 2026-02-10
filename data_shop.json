@@ -1,0 +1,1252 @@
+[
+{
+  "model": "shop.category",
+  "pk": 9,
+  "fields": {
+    "name": "╩т│Єєў│ ёт│ўъш",
+    "name_ru": "╓тхЄюўэ√х ётхўш",
+    "description": "╤т│ўъш ч ът│Єъютшьш рЁюьрЄрьш",
+    "order": 8
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 10,
+  "fields": {
+    "name": "└ЁюьрЄэ│ ёт│ўъш",
+    "name_ru": "└ЁюьрЄшўхёъшх ётхўш",
+    "description": "╤т│ўъш ч хъчюЄшўэшьш чрярїрьш",
+    "order": 4
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 12,
+  "fields": {
+    "name": "─хЁхтэ│ ёт│ўъш",
+    "name_ru": "─Ёхтхёэ√х ётхўш",
+    "description": "╤т│ўъш ч фхЁхт эшьш эюЄърьш",
+    "order": 7
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 16,
+  "fields": {
+    "name": "╩ырёшўэ│ ёт│ўъш",
+    "name_ru": "╩ырёёшўхёъшх ётхўш",
+    "description": "╤т│ўъш │ч ЄЁрфшЎ│щэшьш рЁюьрЄрьш",
+    "order": 6
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 18,
+  "fields": {
+    "name": "┬юёъютрэ│ ёт│ўъш",
+    "name_ru": "╧Ёхьшєь ётхўш",
+    "description": "╤т│ўъш яЁхь│єь  ъюёЄ│",
+    "order": 5
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 19,
+  "fields": {
+    "name": "╩рЄхуюЁш  ЄхёЄ 1 єъЁ",
+    "name_ru": "╩рЄхуюЁш   ЄхёЄ 1 Ёєё",
+    "description": "",
+    "order": 1
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 20,
+  "fields": {
+    "name": "╩рЄхуюЁш  ЄхёЄ 2 єъЁ",
+    "name_ru": "╩рЄхуюЁш  ЄхёЄ 2 Ёєё",
+    "description": "",
+    "order": 2
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 21,
+  "fields": {
+    "name": "╩рЄхуюЁш  ЄхёЄ 3 єъЁ",
+    "name_ru": "╩рЄхуюЁш  ЄхёЄ 3 Ёєё",
+    "description": "",
+    "order": 3
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 192,
+  "fields": {
+    "name": "╩рЁфрьюэ ёт│ўър #1",
+    "name_ru": "╩рЁфрьюэ ётхўр #1",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╩рЁфрьюэ. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╩рЁфрьюэ. ╬Є Iris Aroma.",
+    "price": "305.29",
+    "image": "candles/1_c4MOTKa.jpg",
+    "category": null,
+    "order": 1,
+    "is_hit": true,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 193,
+  "fields": {
+    "name": "┬рэ│ы№ ёт│ўър #2",
+    "name_ru": "┬рэшы№ ётхўр #2",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ┬рэ│ы№. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ┬рэшы№. ╬Є Iris Aroma.",
+    "price": "469.88",
+    "image": "candles/2_jLeOh15.jpg",
+    "category": null,
+    "order": 2,
+    "is_hit": true,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 194,
+  "fields": {
+    "name": "╠єёъєё ёт│ўър #3",
+    "name_ru": "╠єёъєё ётхўр #3",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠єёъєё. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠єёъєё. ╬Є Iris Aroma.",
+    "price": "393.04",
+    "image": "candles/3_xtecTAJ.jpg",
+    "category": null,
+    "order": 3,
+    "is_hit": true,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 195,
+  "fields": {
+    "name": "╩рЁфрьюэ ёт│ўър #4",
+    "name_ru": "╩рЁфрьюэ ётхўр #4",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╩рЁфрьюэ. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╩рЁфрьюэ. ╬Є Iris Aroma.",
+    "price": "131.28",
+    "image": "candles/4_6zSBW6J.jpg",
+    "category": null,
+    "order": 4,
+    "is_hit": true,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 196,
+  "fields": {
+    "name": "╪юъюырф ёт│ўър #5",
+    "name_ru": "╪юъюырф ётхўр #5",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╪юъюырф. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╪юъюырф. ╬Є Iris Aroma.",
+    "price": "493.50",
+    "image": "candles/5_g4pdtKE.jpg",
+    "category": null,
+    "order": 5,
+    "is_hit": true,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 197,
+  "fields": {
+    "name": "▀сыєъю ёт│ўър #6",
+    "name_ru": "▀сыюъю ётхўр #6",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ▀сыєъю. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ▀сыюъю. ╬Є Iris Aroma.",
+    "price": "241.79",
+    "image": "candles/6_Al4CaxB.jpg",
+    "category": 12,
+    "order": 6,
+    "is_hit": true,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 198,
+  "fields": {
+    "name": "▀сыєъю ёт│ўър #7",
+    "name_ru": "▀сыюъю ётхўр #7",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ▀сыєъю. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ▀сыюъю. ╬Є Iris Aroma.",
+    "price": "161.58",
+    "image": "candles/candle_198.jpg",
+    "category": 18,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 199,
+  "fields": {
+    "name": "┬рэ│ы№ ёт│ўър #8",
+    "name_ru": "┬рэшы№ ётхўр #8",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ┬рэ│ы№. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ┬рэшы№. ╬Є Iris Aroma.",
+    "price": "360.69",
+    "image": "candles/candle_199.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 200,
+  "fields": {
+    "name": "╦шьюэ ёт│ўър #9",
+    "name_ru": "╦шьюэ ётхўр #9",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╦шьюэ. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╦шьюэ. ╬Є Iris Aroma.",
+    "price": "348.53",
+    "image": "candles/candle_200.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 201,
+  "fields": {
+    "name": "╩юЁшЎр ёт│ўър #10",
+    "name_ru": "╩юЁшЎр ётхўр #10",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╩юЁшЎр. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╩юЁшЎр. ╬Є Iris Aroma.",
+    "price": "463.81",
+    "image": "candles/candle_201.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 202,
+  "fields": {
+    "name": "╥Ёю эфр ёт│ўър #11",
+    "name_ru": "╨ючр ётхўр #11",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╥Ёю эфр. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╨ючр. ╬Є Iris Aroma.",
+    "price": "453.31",
+    "image": "candles/candle_202.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 203,
+  "fields": {
+    "name": "╩рЁфрьюэ ёт│ўър #12",
+    "name_ru": "╩рЁфрьюэ ётхўр #12",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╩рЁфрьюэ. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╩рЁфрьюэ. ╬Є Iris Aroma.",
+    "price": "463.36",
+    "image": "candles/candle_203.jpg",
+    "category": 12,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 204,
+  "fields": {
+    "name": "└яхы№ёшэ ёт│ўър #13",
+    "name_ru": "└яхы№ёшэ ётхўр #13",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь └яхы№ёшэ. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь └яхы№ёшэ. ╬Є Iris Aroma.",
+    "price": "198.32",
+    "image": "candles/candle_204.jpg",
+    "category": 10,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 205,
+  "fields": {
+    "name": "╠хф ёт│ўър #14",
+    "name_ru": "╠╕ф ётхўр #14",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠хф. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠╕ф. ╬Є Iris Aroma.",
+    "price": "143.96",
+    "image": "candles/candle_205.jpg",
+    "category": 18,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 206,
+  "fields": {
+    "name": "╦│ё ёт│ўър #15",
+    "name_ru": "╦хё ётхўр #15",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╦│ё. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╦хё. ╬Є Iris Aroma.",
+    "price": "335.15",
+    "image": "candles/candle_206.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 207,
+  "fields": {
+    "name": "╠єёъєё ёт│ўър #16",
+    "name_ru": "╠єёъєё ётхўр #16",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠єёъєё. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠єёъєё. ╬Є Iris Aroma.",
+    "price": "453.38",
+    "image": "candles/candle_207.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 208,
+  "fields": {
+    "name": "╠юЁё№ъшщ сЁшч ёт│ўър #17",
+    "name_ru": "╠юЁёъющ сЁшч ётхўр #17",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠юЁё№ъшщ сЁшч. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠юЁёъющ сЁшч. ╬Є Iris Aroma.",
+    "price": "74.27",
+    "image": "candles/candle_208.jpg",
+    "category": 9,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 209,
+  "fields": {
+    "name": "╠єёъєё ёт│ўър #18",
+    "name_ru": "╠єёъєё ётхўр #18",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠єёъєё. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠єёъєё. ╬Є Iris Aroma.",
+    "price": "112.42",
+    "image": "candles/candle_209.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 210,
+  "fields": {
+    "name": "╥Ёю эфр ёт│ўър #19",
+    "name_ru": "╨ючр ётхўр #19",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╥Ёю эфр. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╨ючр. ╬Є Iris Aroma.",
+    "price": "130.86",
+    "image": "candles/candle_210.jpg",
+    "category": 9,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 211,
+  "fields": {
+    "name": "╠юЁё№ъшщ сЁшч ёт│ўър #20",
+    "name_ru": "╠юЁёъющ сЁшч ётхўр #20",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠юЁё№ъшщ сЁшч. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠юЁёъющ сЁшч. ╬Є Iris Aroma.",
+    "price": "233.06",
+    "image": "candles/candle_211.jpg",
+    "category": 12,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 212,
+  "fields": {
+    "name": "╩юЁшЎр ёт│ўър #21",
+    "name_ru": "╩юЁшЎр ётхўр #21",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╩юЁшЎр. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╩юЁшЎр. ╬Є Iris Aroma.",
+    "price": "448.68",
+    "image": "candles/candle_212.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 213,
+  "fields": {
+    "name": "╩юЁшЎр ёт│ўър #22",
+    "name_ru": "╩юЁшЎр ётхўр #22",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╩юЁшЎр. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╩юЁшЎр. ╬Є Iris Aroma.",
+    "price": "122.08",
+    "image": "candles/candle_213.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 214,
+  "fields": {
+    "name": "╥Ёю эфр ёт│ўър #23",
+    "name_ru": "╨ючр ётхўр #23",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╥Ёю эфр. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╨ючр. ╬Є Iris Aroma.",
+    "price": "296.03",
+    "image": "candles/candle_214.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 215,
+  "fields": {
+    "name": "╠юЁё№ъшщ сЁшч ёт│ўър #24",
+    "name_ru": "╠юЁёъющ сЁшч ётхўр #24",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠юЁё№ъшщ сЁшч. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠юЁёъющ сЁшч. ╬Є Iris Aroma.",
+    "price": "472.36",
+    "image": "candles/candle_215.jpg",
+    "category": 12,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 216,
+  "fields": {
+    "name": "▀сыєъю ёт│ўър #25",
+    "name_ru": "▀сыюъю ётхўр #25",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ▀сыєъю. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ▀сыюъю. ╬Є Iris Aroma.",
+    "price": "263.70",
+    "image": "candles/candle_216.jpg",
+    "category": 10,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 217,
+  "fields": {
+    "name": "╦шьюэ ёт│ўър #26",
+    "name_ru": "╦шьюэ ётхўр #26",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╦шьюэ. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╦шьюэ. ╬Є Iris Aroma.",
+    "price": "469.59",
+    "image": "candles/candle_217.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 218,
+  "fields": {
+    "name": "╠хф ёт│ўър #27",
+    "name_ru": "╠╕ф ётхўр #27",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠хф. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠╕ф. ╬Є Iris Aroma.",
+    "price": "50.56",
+    "image": "candles/candle_218.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 219,
+  "fields": {
+    "name": "▀сыєъю ёт│ўър #28",
+    "name_ru": "▀сыюъю ётхўр #28",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ▀сыєъю. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ▀сыюъю. ╬Є Iris Aroma.",
+    "price": "64.44",
+    "image": "candles/candle_219.jpg",
+    "category": 18,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 220,
+  "fields": {
+    "name": "╩ртєэш ёт│ўър #29",
+    "name_ru": "└Ёсєч ётхўр #29",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╩ртєэш. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь └Ёсєч. ╬Є Iris Aroma.",
+    "price": "186.97",
+    "image": "candles/candle_220.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 221,
+  "fields": {
+    "name": "╞рёь│э ёт│ўър #30",
+    "name_ru": "╞рёьшэ ётхўр #30",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╞рёь│э. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╞рёьшэ. ╬Є Iris Aroma.",
+    "price": "307.62",
+    "image": "candles/candle_221.jpg",
+    "category": 10,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 222,
+  "fields": {
+    "name": "┬рэ│ы№ ёт│ўър #31",
+    "name_ru": "┬рэшы№ ётхўр #31",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ┬рэ│ы№. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ┬рэшы№. ╬Є Iris Aroma.",
+    "price": "396.97",
+    "image": "candles/candle_222.jpg",
+    "category": 16,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 223,
+  "fields": {
+    "name": "╩юЁшЎр ёт│ўър #32",
+    "name_ru": "╩юЁшЎр ётхўр #32",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╩юЁшЎр. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╩юЁшЎр. ╬Є Iris Aroma.",
+    "price": "477.41",
+    "image": "candles/candle_223.jpg",
+    "category": 12,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 224,
+  "fields": {
+    "name": "╩ртєэш ёт│ўър #33",
+    "name_ru": "└Ёсєч ётхўр #33",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╩ртєэш. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь └Ёсєч. ╬Є Iris Aroma.",
+    "price": "339.30",
+    "image": "candles/candle_224.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 225,
+  "fields": {
+    "name": "╠юЁё№ъшщ сЁшч ёт│ўър #34",
+    "name_ru": "╠юЁёъющ сЁшч ётхўр #34",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠юЁё№ъшщ сЁшч. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠юЁёъющ сЁшч. ╬Є Iris Aroma.",
+    "price": "360.04",
+    "image": "candles/candle_225.jpg",
+    "category": 16,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 226,
+  "fields": {
+    "name": "▀сыєъю ёт│ўър #35",
+    "name_ru": "▀сыюъю ётхўр #35",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ▀сыєъю. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ▀сыюъю. ╬Є Iris Aroma.",
+    "price": "463.27",
+    "image": "candles/candle_226.jpg",
+    "category": 10,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 227,
+  "fields": {
+    "name": "╠юЁё№ъшщ сЁшч ёт│ўър #36",
+    "name_ru": "╠юЁёъющ сЁшч ётхўр #36",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠юЁё№ъшщ сЁшч. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠юЁёъющ сЁшч. ╬Є Iris Aroma.",
+    "price": "274.46",
+    "image": "candles/candle_227.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 228,
+  "fields": {
+    "name": "╠єёъєё ёт│ўър #37",
+    "name_ru": "╠єёъєё ётхўр #37",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠єёъєё. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠єёъєё. ╬Є Iris Aroma.",
+    "price": "127.93",
+    "image": "candles/candle_228.jpg",
+    "category": 16,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 229,
+  "fields": {
+    "name": "╠юЁё№ъшщ сЁшч ёт│ўър #38",
+    "name_ru": "╠юЁёъющ сЁшч ётхўр #38",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠юЁё№ъшщ сЁшч. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠юЁёъющ сЁшч. ╬Є Iris Aroma.",
+    "price": "214.55",
+    "image": "candles/candle_229.jpg",
+    "category": 12,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 230,
+  "fields": {
+    "name": "▀сыєъю ёт│ўър #39",
+    "name_ru": "▀сыюъю ётхўр #39",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ▀сыєъю. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ▀сыюъю. ╬Є Iris Aroma.",
+    "price": "454.11",
+    "image": "candles/candle_230.jpg",
+    "category": 12,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 231,
+  "fields": {
+    "name": "╪юъюырф ёт│ўър #40",
+    "name_ru": "╪юъюырф ётхўр #40",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╪юъюырф. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╪юъюырф. ╬Є Iris Aroma.",
+    "price": "228.88",
+    "image": "candles/candle_231.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 232,
+  "fields": {
+    "name": "╦шьюэ ёт│ўър #41",
+    "name_ru": "╦шьюэ ётхўр #41",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╦шьюэ. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╦шьюэ. ╬Є Iris Aroma.",
+    "price": "154.27",
+    "image": "candles/candle_232.jpg",
+    "category": 10,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 233,
+  "fields": {
+    "name": "╠єёъєё ёт│ўър #42",
+    "name_ru": "╠єёъєё ётхўр #42",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠єёъєё. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠єёъєё. ╬Є Iris Aroma.",
+    "price": "299.06",
+    "image": "candles/candle_233.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 234,
+  "fields": {
+    "name": "┬рэ│ы№ ёт│ўър #43",
+    "name_ru": "┬рэшы№ ётхўр #43",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ┬рэ│ы№. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ┬рэшы№. ╬Є Iris Aroma.",
+    "price": "292.04",
+    "image": "candles/candle_234.jpg",
+    "category": 9,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 235,
+  "fields": {
+    "name": "╦ртрэфютшщ ёт│ўър #44",
+    "name_ru": "╦ртрэфют√щ ётхўр #44",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╦ртрэфютшщ. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╦ртрэфют√щ. ╬Є Iris Aroma.",
+    "price": "268.77",
+    "image": "candles/candle_235.jpg",
+    "category": 18,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 236,
+  "fields": {
+    "name": "╠єёъєё ёт│ўър #45",
+    "name_ru": "╠єёъєё ётхўр #45",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠єёъєё. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠єёъєё. ╬Є Iris Aroma.",
+    "price": "100.35",
+    "image": "candles/candle_236.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 237,
+  "fields": {
+    "name": "╥Ёю эфр ёт│ўър #46",
+    "name_ru": "╨ючр ётхўр #46",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╥Ёю эфр. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╨ючр. ╬Є Iris Aroma.",
+    "price": "357.53",
+    "image": "candles/candle_237.jpg",
+    "category": 12,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 238,
+  "fields": {
+    "name": "╥Ёю эфр ёт│ўър #47",
+    "name_ru": "╨ючр ётхўр #47",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╥Ёю эфр. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╨ючр. ╬Є Iris Aroma.",
+    "price": "282.00",
+    "image": "candles/candle_238.jpg",
+    "category": 12,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": 30
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 239,
+  "fields": {
+    "name": "╩юЁшЎр ёт│ўър #48",
+    "name_ru": "╩юЁшЎр ётхўр #48",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╩юЁшЎр. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╩юЁшЎр. ╬Є Iris Aroma.",
+    "price": "437.33",
+    "image": "candles/candle_239.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 240,
+  "fields": {
+    "name": "╩рЁфрьюэ ёт│ўър #49",
+    "name_ru": "╩рЁфрьюэ ётхўр #49",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╩рЁфрьюэ. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╩рЁфрьюэ. ╬Є Iris Aroma.",
+    "price": "223.98",
+    "image": "candles/candle_240.jpg",
+    "category": 19,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 241,
+  "fields": {
+    "name": "╥Ёю эфр ёт│ўър #50",
+    "name_ru": "╨ючр ётхўр #50",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╥Ёю эфр. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╨ючр. ╬Є Iris Aroma.",
+    "price": "406.53",
+    "image": "candles/candle_241.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": 20
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 6,
+  "fields": {
+    "full_name": "Stanislav",
+    "phone": "+380934144277",
+    "email": "snobys911@gmail.com",
+    "city": "ь. ╬фхёр, ╬фхё№ър юсы.",
+    "warehouse": "╬Єфхыхэшх ╣2 - ┬│фф│ыхээ  ╣2: тєы. ┴рчютр, 16 (╧ЁюьЁшэюъ, 7 ъь)",
+    "notes": "",
+    "agree_to_terms": true,
+    "created_at": "2026-02-06T19:03:15.279Z",
+    "updated_at": "2026-02-06T19:03:15.279Z",
+    "status": "new"
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 7,
+  "fields": {
+    "full_name": "BLASTED",
+    "phone": "+380934144277",
+    "email": "snobys911@gmail.com",
+    "city": "ё. ╨│тэх, ─ЁюуюсшЎ№ъшщ Ё-э, ╦№т│тё№ър юсы.",
+    "warehouse": "╬Єфхыхэшх ╣1 - ╧єэъЄ яЁшщьрээ -тшфрў│ (фю 30 ъу): тєы. ╦№т│тё№ър, 15",
+    "notes": "╥┼╤╥",
+    "agree_to_terms": true,
+    "created_at": "2026-02-07T10:04:04.810Z",
+    "updated_at": "2026-02-07T10:04:04.811Z",
+    "status": "new"
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 8,
+  "fields": {
+    "full_name": "╧р∙хэъю ╤Єрэшёырт",
+    "phone": "+380934144277",
+    "email": "snobys911@gmail.com",
+    "city": "ь. ─э│яЁю, ─э│яЁюяхЄЁютё№ър юсы.",
+    "warehouse": "╬Єфхыхэшх ╣16 - ┬│фф│ыхээ  ╣16 (фю 30 ъу): тєы. ┬рЁЄютшї ═хср, 43",
+    "notes": "ЄхёЄ!!!",
+    "agree_to_terms": true,
+    "created_at": "2026-02-07T19:20:37.272Z",
+    "updated_at": "2026-02-07T19:20:37.272Z",
+    "status": "new"
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 9,
+  "fields": {
+    "full_name": "╧р∙хэъю ╤Єрэшёырт",
+    "phone": "+380934144277",
+    "email": "ss@gmail.com",
+    "city": "ь. ─э│яЁю, ─э│яЁюяхЄЁютё№ър юсы.",
+    "warehouse": "╬Єфхыхэшх ╣1 - ┬│фф│ыхээ  ╣1: тєы. ╤юэ ўэр ═рсхЁхцэр, 114",
+    "notes": "111",
+    "agree_to_terms": true,
+    "created_at": "2026-02-07T19:22:13.131Z",
+    "updated_at": "2026-02-07T19:22:13.131Z",
+    "status": "new"
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 10,
+  "fields": {
+    "full_name": "╧р∙хэъю ╤Єрэшёырт",
+    "phone": "+380934144277",
+    "email": "snobys228@gmail.com",
+    "city": "ёьЄ ┬хышър ╬ыхъёрэфЁ│тър, ┴хЁшёыртё№ъшщ Ё-э, ╒хЁёюэё№ър юсы.",
+    "warehouse": "╬Єфхыхэшх ╣1 - ┬│фф│ыхээ  ╣1: тєы. ┴ЁрЄё№ър, 17",
+    "notes": "╬рюты",
+    "agree_to_terms": true,
+    "created_at": "2026-02-07T19:29:06.454Z",
+    "updated_at": "2026-02-07T19:29:06.454Z",
+    "status": "new"
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 11,
+  "fields": {
+    "full_name": "╧р∙хэъю ╤Єрэшёырт",
+    "phone": "+380934144277",
+    "email": "snobys228@gmail.com",
+    "city": "ё. ╬ыхъёрэфЁ│тър, ─э│яЁютё№ъшщ Ё-э, ─э│яЁюяхЄЁютё№ър юсы.",
+    "warehouse": "╬Єфхыхэшх ╣1 - ┬│фф│ыхээ  ╣1: тєы. ╓хэЄЁры№эр, 1",
+    "notes": "╒юўє ьэюую ётхўхххъ",
+    "agree_to_terms": true,
+    "created_at": "2026-02-07T19:34:21.083Z",
+    "updated_at": "2026-02-07T19:34:21.083Z",
+    "status": "new"
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 12,
+  "fields": {
+    "full_name": "╧р∙хэъю ╤Єрэшёырт",
+    "phone": "+380934144277",
+    "email": "snobys228@gmail.com",
+    "city": "ё. ╬ыхъёрэфЁ│тър, ─э│яЁютё№ъшщ Ё-э, ─э│яЁюяхЄЁютё№ър юсы.",
+    "warehouse": "╬Єфхыхэшх ╣1 - ┬│фф│ыхээ  ╣1: тєы. ╓хэЄЁры№эр, 1",
+    "notes": "Ї√тЇ√т",
+    "agree_to_terms": true,
+    "created_at": "2026-02-07T19:44:15.785Z",
+    "updated_at": "2026-02-07T19:44:15.785Z",
+    "status": "new"
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 13,
+  "fields": {
+    "full_name": "╧р∙хэъю ╤Єрэшёырт",
+    "phone": "+380934144277",
+    "email": "snobys228@gmail.com",
+    "city": "ь. ─э│яЁю, ─э│яЁюяхЄЁютё№ър юсы.",
+    "warehouse": "╬Єфхыхэшх ╣1 - ┬│фф│ыхээ  ╣1: тєы. ╤юэ ўэр ═рсхЁхцэр, 114",
+    "notes": "",
+    "agree_to_terms": true,
+    "created_at": "2026-02-07T19:48:24.222Z",
+    "updated_at": "2026-02-07T19:48:24.222Z",
+    "status": "new"
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 14,
+  "fields": {
+    "full_name": "╧р∙хэъю ╤Єрэшёырт",
+    "phone": "+380934144277",
+    "email": "snobys228@gmail.com",
+    "city": "ё. ╬ыхъёрэфЁ│тър, ─э│яЁютё№ъшщ Ё-э, ─э│яЁюяхЄЁютё№ър юсы.",
+    "warehouse": "╬Єфхыхэшх ╣1 - ┬│фф│ыхээ  ╣1: тєы. ╓хэЄЁры№эр, 1",
+    "notes": "╥єЎ",
+    "agree_to_terms": true,
+    "created_at": "2026-02-07T20:09:05.714Z",
+    "updated_at": "2026-02-07T20:09:05.714Z",
+    "status": "new"
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 15,
+  "fields": {
+    "full_name": "╧р∙хэъю ╤Єрэшёырт",
+    "phone": "+380934144277",
+    "email": "snobys228@gmail.com",
+    "city": "ё. ╬ыхъёрэфЁ│тър, ─э│яЁютё№ъшщ Ё-э, ─э│яЁюяхЄЁютё№ър юсы.",
+    "warehouse": "╬Єфхыхэшх ╣1 - ┬│фф│ыхээ  ╣1: тєы. ╓хэЄЁры№эр, 1",
+    "notes": "Їт√Ї√т",
+    "agree_to_terms": true,
+    "created_at": "2026-02-07T21:04:38.010Z",
+    "updated_at": "2026-02-07T21:04:38.010Z",
+    "status": "new"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 6,
+  "fields": {
+    "order": 6,
+    "candle": 194,
+    "quantity": 3,
+    "price": "393.04"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 7,
+  "fields": {
+    "order": 6,
+    "candle": 197,
+    "quantity": 4,
+    "price": "241.79"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 8,
+  "fields": {
+    "order": 7,
+    "candle": 195,
+    "quantity": 3,
+    "price": "131.28"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 9,
+  "fields": {
+    "order": 7,
+    "candle": 241,
+    "quantity": 3,
+    "price": "406.53"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 10,
+  "fields": {
+    "order": 8,
+    "candle": 192,
+    "quantity": 1,
+    "price": "305.29"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 11,
+  "fields": {
+    "order": 9,
+    "candle": 194,
+    "quantity": 3,
+    "price": "393.04"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 12,
+  "fields": {
+    "order": 10,
+    "candle": 197,
+    "quantity": 2,
+    "price": "241.79"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 13,
+  "fields": {
+    "order": 10,
+    "candle": 223,
+    "quantity": 2,
+    "price": "477.41"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 14,
+  "fields": {
+    "order": 11,
+    "candle": 192,
+    "quantity": 3,
+    "price": "305.29"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 15,
+  "fields": {
+    "order": 11,
+    "candle": 195,
+    "quantity": 3,
+    "price": "131.28"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 16,
+  "fields": {
+    "order": 11,
+    "candle": 193,
+    "quantity": 2,
+    "price": "469.88"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 17,
+  "fields": {
+    "order": 12,
+    "candle": 196,
+    "quantity": 2,
+    "price": "493.50"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 18,
+  "fields": {
+    "order": 12,
+    "candle": 194,
+    "quantity": 3,
+    "price": "393.04"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 19,
+  "fields": {
+    "order": 13,
+    "candle": 197,
+    "quantity": 3,
+    "price": "241.79"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 20,
+  "fields": {
+    "order": 14,
+    "candle": 192,
+    "quantity": 2,
+    "price": "305.29"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 21,
+  "fields": {
+    "order": 15,
+    "candle": 229,
+    "quantity": 1,
+    "price": "214.55"
+  }
+}
+]

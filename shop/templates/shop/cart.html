@@ -1,0 +1,45 @@
+{% extends 'shop/base.html' %}
+{% load i18n %}
+
+{% block content %}
+<div class="cart-page">
+    <h2>{% trans "Ваша корзина" %}</h2>
+    {% if items %}
+    <div class="cart-items">
+        {% for it in items %}
+        <div class="cart-row" data-pk="{{ it.candle.pk }}">
+            {% if it.candle.image and it.candle.image.url %}
+                <img src="{{ it.candle.image.url }}" alt="{{ it.candle.name }}">
+            {% else %}
+                <img src="https://picsum.photos/seed/{{ it.candle.pk|default:0 }}/200/200" alt="{{ it.candle.name }}">
+            {% endif %}
+            <div class="cart-info">
+                <a href="{% url 'product_detail' it.candle.pk %}"><strong>{{ it.candle.display_name }}</strong></a>
+                <p>{% trans "Категория:" %} {{ it.candle.category.display_name }}</p>
+                <div class="qty-controls">
+                    <button class="qty-btn cart-decrease" data-pk="{{ it.candle.pk }}">−</button>
+                    <span id="qty-{{ it.candle.pk }}">{{ it.qty }}</span>
+                    <button class="qty-btn cart-increase" data-pk="{{ it.candle.pk }}">+</button>
+                    <button class="cart-remove" data-pk="{{ it.candle.pk }}">{% trans "Удалить" %}</button>
+                </div>
+            </div>
+            <div class="cart-sub" id="subtotal-{{ it.candle.pk }}">{{ it.subtotal }} ₴</div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="cart-footer">
+        <strong>{% trans "Итого:" %} <span id="cart-total">{{ total }}</span> ₴</strong>
+        <button class="btn">{% trans "Оформить заказ" %}</button>
+    </div>
+    {% else %}
+    <div class="cart-empty-illustration">
+        <img src="https://cdn.pixabay.com/photo/2017/01/31/22/25/shopping-cart-2028726_1280.png" alt="empty cart illustration">
+        <div>
+            <p><strong>{% trans "Ваша корзина пуста." %}</strong></p>
+            <p>{% trans "Похоже, вы ещё не добавили товар." %} <a href="{% url 'product_list' %}">{% trans "Перейти к товару" %}</a></p>
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+{% endblock %}

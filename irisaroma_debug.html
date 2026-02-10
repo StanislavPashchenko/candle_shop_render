@@ -1,0 +1,25 @@
+<script>
+    const salt = "{$salt}";
+    const difficulty = 4;
+    const defaultHash = "f3c30d0fc444e576ab9dcf40216ae1795845e005b5319a2424eeb0e0bde49412";
+    let nonce = 0;
+    async function sha256(msg) {
+        const buf = new TextEncoder().encode(msg);
+        const hashBuf = await crypto.subtle.digest('SHA-256', buf);
+        return Array.from(new Uint8Array(hashBuf))
+            .map(b => b.toString(16).padStart(2, '0')).join('');
+    }
+
+    async function solve() {
+        while (true) {
+            const hash = await sha256(salt + nonce);
+            if (hash.startsWith("0".repeat(difficulty))) {
+                document.cookie = "challenge_passed="+defaultHash+"; max-age=1800; path=/; samesite=Lax";
+                location.reload();
+                break;
+            }
+            nonce++;
+        }
+    }
+    solve();
+</script>

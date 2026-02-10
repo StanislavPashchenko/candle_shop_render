@@ -1,0 +1,7407 @@
+[
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$517mIQvvouwToN76uHole9$YQIgHeb9LgDSqXsGI0uZJ6o2V/rBERbPeLBBlfshGyE=",
+    "last_login": "2026-02-07T20:11:15.564Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "ss@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-02-01T16:44:34.775Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1m9u7hp4fj2hmb865jv9wsa9hkrtvh5n",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1voogV:2Lddh1Muv2oq9oPIh_4vBd6TpNAyRtPRZLbtBpEq8ik",
+    "expire_date": "2026-02-21T20:13:39.271Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1okbegjb94xlwlx2057dmd04gicoff2p",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vogWx:kZ2iJ_t7JluNKJs_ybqvtarxgmAAa5_lz8-BejPSLKI",
+    "expire_date": "2026-02-21T11:31:15.033Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "249cslv97baraj8tlzhobpejx1k730n9",
+  "fields": {
+    "session_data": ".eJxVjLsOhCAQAP9la0MCHAiU1983kF1YH6fBRKUy_vvFnI3tzGQOyF8s_RJnLH3FniFAnaCBhOsO4TgbiFj3IdaN1zhmCCDhwQjTxOUS_5NIS9nXkcSViNtu4rNknt93-xgMuA0Q4NVZSaQIDfnWskzadi9HXlolvc_ZqUydI-0Vq9Zo0padQZWck9p4z3D-ACfgQr4:1voRXv:4PA1nDgRDvb7mJJG8LySh7pudCR9XHc-LrU4SeQeppw",
+    "expire_date": "2026-02-20T19:31:15.771Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3g79bg5y316fh9idsj3axuwtha9ggsjc",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vonxe:AlnR5H69VgQHWblNFq_mhNqPxnatZ0jT5in-eNgrpdk",
+    "expire_date": "2026-02-21T19:27:18.761Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4ab23y0x9srz0w0kijrxp7lkupowg5cm",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vonyP:eWDuaeYaWVzNzW7Fy8tv5fRqitUS9ftkvKQF4DVy-gI",
+    "expire_date": "2026-02-21T19:28:05.558Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4cpihj05l2nble6jcyk1ltei41tqwhzl",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vo16E:O4fTiPbS_NW5WW17Y6KSpFmdNVh-phauI9gys2Iw9vI",
+    "expire_date": "2026-02-19T15:16:54.556Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5uafy6af553kxa5tytxc0lb0bkv8o5ww",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1voROo:YI79ghCNrBC_3fUEC6KOWxBSkNaN4nb4zeYj3dKBSGE",
+    "expire_date": "2026-02-20T19:21:50.268Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "60fimfdo88wbmpgifop1rudd3xmt6cnn",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vonyS:y67Y9PJkKtJ53IZxQHcWwmZjX4dTSCnomBEaF2FlYGE",
+    "expire_date": "2026-02-21T19:28:08.095Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6j24zviva3sdrhwryxd2p1wrcmgxazbz",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vnxRh:BWyTLA_c-Q1K4d-FiMDzB81Z3V0LSla1OK_dzDEnKQQ",
+    "expire_date": "2026-02-19T11:22:49.565Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6v35fxqaahsk4ednx9wzlbsrq6qbix4o",
+  "fields": {
+    "session_data": ".eJxVjMsKgzAQRf9l1hKYxMRJlt33G2QmGattUfCxEv9dBBft6sI5h7tDy9vat9uiczsUSIBQ_TLh_NHxEuXN42syeRrXeRBzJea2i3lORb-Pu_076HnpIUHdBRSxwl5iExSzC11NEjFYjLEUskU6Ehet2sY7cUHJs81E6HyMChVknldIOyA1kFwFSP5eC8kdxwmNIj8e:1vnfT0:R7jD5Pif5fy0CMdd2ll4fSS5rvY_wxkShte-mBIfwqQ",
+    "expire_date": "2026-02-18T16:10:58.503Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "71861pyyby0fzb62tefdqj7ao3g2riqc",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vofkp:yc6NqjWqlao_9yjUqePagKZ77wdHV-aq4co5_L4sXFg",
+    "expire_date": "2026-02-21T10:41:31.103Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "719gw9uvurkna9gfxf8fj8ow4fjh2ztr",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vo0Q1:D-tKQ2WDiVO1OeqvcUSAHwi22WZ3-1uIIh1V2pFtyrc",
+    "expire_date": "2026-02-19T14:33:17.881Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "74lrp0166277imwq8qbmod95g4g28n0p",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vo18P:84Dc6ihIMHVRbSZ5I5ptxjQt4Xm-s1TCWlwfTeDOH2E",
+    "expire_date": "2026-02-19T15:19:09.540Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7gne3vtzri2zsrj5atq02b47s7dgdner",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vnvmT:pI81E4cMSPXgHMKL0DYM07CKegmJVTMPp0ecN8FFZFk",
+    "expire_date": "2026-02-19T09:36:09.712Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7gr7z9d8j616angbshpaga7rd5talalb",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pAAhc64dO8ZyAwMUjU0Ke3KeHdt0oVu_3vvv1Skba1x67LEKauzMur0uzGlh7Qd5Du126zT3NZlYr0r-qBdX-csz8vh_h1U6vVbDyUYZsvkGccgJrlQBmA0wRrEnMFmLsAOrdjRO3ZBwJNNAMZ5RFHvD-P_N44:1vnveK:o7NV7aYgz0ATFXOjjRxPJacn-BmWn99c_sQLgnPs6F0",
+    "expire_date": "2026-02-19T09:27:44.296Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7svq25w7eucy4bgdiwtomqhrq597lgk3",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayIsImNhcnQiOnsiMjIxIjozfX0:1vo0pI:VgiSeipKHzaH6anGJi6G9lfH1yqpQRvEgY74JCHDucM",
+    "expire_date": "2026-02-19T14:59:24.156Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "824dkje7qytrk9s1pqmt6p1ubl88o7sy",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayIsImNhcnQiOnt9fQ:1vonsn:DSQ4TjYviLM0E2RSiBYCjWxwzvbeBXDzkN_UXCURIlY",
+    "expire_date": "2026-02-21T19:22:17.697Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "89a8465k2742ftafzu24dp0fhvn2bdts",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vnyx6:TkilAhwXqYYh7FuScyJVl4HjTaoKpRVm-3ADASJp7Mk",
+    "expire_date": "2026-02-19T12:59:20.703Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8y59ahc5870krncww3tz8ypcr1lr263r",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vo0it:N8CjYxh8W107k6wlCuSf3NATkpp26Jl2dFXbEZG-lJ8",
+    "expire_date": "2026-02-19T14:52:47.266Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "9lb5qr0oegyuqprkx1n96c77jr9tfdek",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayIsImNhcnQiOnsiMTkzIjo0fX0:1vofeK:hSiso6mxd-b4BDYp4nKC-EN2i0lUVuhKFIP687W00jY",
+    "expire_date": "2026-02-21T10:34:48.058Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "axa4drbaz8prkvn50txr2iwv27ma29tw",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vonyf:9btL9gWbhx0PbD6U-ifa88iqpkCoJw2b0rwWQ9EC91c",
+    "expire_date": "2026-02-21T19:28:21.651Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "biree8aidt1brwrybomisrin08rq4yow",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vonyf:9btL9gWbhx0PbD6U-ifa88iqpkCoJw2b0rwWQ9EC91c",
+    "expire_date": "2026-02-21T19:28:21.316Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "boj6l152ir35v84j37x3o6v0zngzv7k2",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vo1Oe:RTVKAWrheflXZnF31yBbqEo-NXPNBvtlWjdw713GRMY",
+    "expire_date": "2026-02-19T15:35:56.765Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "bvkiwwti3ivb359todf5g9xb7tlfy4jz",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1voRR8:N8aliL8kUob0eJHm1DkQ-tguzdkyOi5xX98lEoR5NaE",
+    "expire_date": "2026-02-20T19:24:14.499Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "c3b1qdsmc8yveo2ei0hlz5j392i27e3y",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vonxf:Yiwkaerm0b6VqPJt20r-a356BgZkHSkNu27rU47oqqk",
+    "expire_date": "2026-02-21T19:27:19.271Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "chwr5bn0dws5ppg5taq7z9xgcr70ayjv",
+  "fields": {
+    "session_data": ".eJxVjL0OhCAQhN9l6wsJIAiW198zkF1Yf06jiUplfPfDnI3NFPPNNwekL87dEqaSGTuGBvIILwiY9z7kjdcwpFLKZ0cYR54v8PdFXOZ9HUhcE3HTTXyWxNP73j4Oetz6YletlUSK0JCvLcuobVs58tIq6X1KTiVqHWmvWNVGk7bsDKronNTGey6nEdcdmgOUdtDo8_wB7v9EDA:1vo1Ue:Gj9_3XMU8PSDnkZymTmNr0HHun4DC4Npr-f8EdQyxcw",
+    "expire_date": "2026-02-19T15:42:08.038Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cph9oqlorweyypma7pldm0w3wr503qbv",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1voogU:0MxqB6Fn5k3b8ijLxxehZT_L_BlmJrhxuHvnV443Zgk",
+    "expire_date": "2026-02-21T20:13:38.755Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cy9nb4blg02fe6a1ippi49dovf61dj3m",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1voRTE:x9tQHP-qz9eh-hDTvM5RwXma4ZvV6yLdi-eXW1xPiWk",
+    "expire_date": "2026-02-20T19:26:24.148Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "d1xhlhnzg06qecm8c0a14nqmx55jyt2t",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vo0KS:99Y3_KUAdvRfbyCaL_Ba0jGEhPIOgkvcIx3KulDqj8M",
+    "expire_date": "2026-02-19T14:27:32.225Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dd7j5x0zps8j7pgnjmucbzn7sgvnqsr7",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vnvtA:cTzVglxxqVZyfikD6Qe0aLQdABx3X4pI1eLqAz2jx2U",
+    "expire_date": "2026-02-19T09:43:04.192Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dy7lzet1muevy4uqczsrmmhxm9kpry8p",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vonyR:N0651FjHfidveNIbBzfoAb5i0QCpJZ5wWquf_pPiEgI",
+    "expire_date": "2026-02-21T19:28:07.603Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "e84hi5a6mg6w5c0d5ojjwzdhe3azv9ws",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1voo3X:YSYZN0d52xxAGdgZ3hh1SHyie1I5QCnPxenjZ4uW1e8",
+    "expire_date": "2026-02-21T19:33:23.855Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "efn9xedywk41tbza1m0sj5cw0cxehm8x",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1voROf:FCB-3is9ZXnWXAwmocQijmrSCVGq7cJxOuXBbfsFc3A",
+    "expire_date": "2026-02-20T19:21:41.186Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "h0534x3pdnn1kairgyw6e6argju324r4",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQRO9CHSEBBrMp0-cMaBfWn9gCyTaVlbvHVty4mWLevNlF-mDuS5iPrNizeIo6iYcIWLch1JWXMKajVPeOME6cT_D3ZSx5W0aS50RedJXvknh-XdvbwYDrcNhN5xSRJrQErWMVjesaT6CcVgApeZ2o82RAs26tIePYW9TRe2UsAIvvD5GlP3I:1vnxTD:N3KYlnyVI8AILjMLnsT3BBXQ7JELl3fY9YkrJDqBZzk",
+    "expire_date": "2026-02-19T11:24:23.863Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "h6rbo0zg4xuhebfmo0ndzmks70b1iln1",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vo1MR:77FECoKuKEn-iGd8_QYBUEKMJRLGI6Hor8aTWfVBvqc",
+    "expire_date": "2026-02-19T15:33:39.310Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hbbec6l4qqrv7x5flv1q1n9dtobib7jq",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1voogV:2Lddh1Muv2oq9oPIh_4vBd6TpNAyRtPRZLbtBpEq8ik",
+    "expire_date": "2026-02-21T20:13:39.320Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "iuto7yohnkusj7i2b2fkgobzbgtcpx9u",
+  "fields": {
+    "session_data": ".eJxVjEsOgzAMBe_idRXJSRNslt33DMhOTKGtQOKzQty9RWLD9s3M2yDLtEC9AVKEGvcbNLIuXbPONjV9gRoQLptK_thwgPKW4TW6PA7L1Ks7FHfS2T3HYt_H6V4OOpm7f31vE6p6lahcJcMcUnsnZUwemUshX7QlDezNVzFoSEZRfCbCEJkN9h8mATwn:1vnvSW:tpLyp8vCkVuFnzb8NPMIsmhkDoBGiI7VSNzhZQDpakM",
+    "expire_date": "2026-02-19T09:15:32.846Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ivai6ssazdbybrvv7sj87ocpexa9qcbb",
+  "fields": {
+    "session_data": ".eJxVjLsOgzAMAP_FM4pq50GSsXu_AcWJKbQVSAQmxL9XSCysd6fbIadlhbgDPRCiaYC0g2iOBrq0rUO3VVm6sUAEhBvjlL8ynaJ80vSeVZ6ndRlZnYm6bFWvucjvebW3wZDqABFM75CZOFkOrRPM2vXGc0BHGEIpngr3nnUgodZq1k68TZS9R21DEDj-R0w9mA:1vo3Mt:KugdCmI4g3gHnq0MIH_NZnr55xIOvWzOI2IwOUTwYdM",
+    "expire_date": "2026-02-19T17:42:15.906Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "j74rj4dvzupueepkekdtaogy336f3t4a",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vnzxz:PDLP3JryG1QouH3fKeVIivIWPHCdl_rwJ1VhVHLB-kc",
+    "expire_date": "2026-02-19T14:04:19.332Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "juxaartfa4zm3ey141okm6675jf6wvq4",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vnxU4:zjecAlMEEzHpmMtGPyngrlN5eXDtH6ObrlSgbW9nPc4",
+    "expire_date": "2026-02-19T11:25:16.302Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "kv4wkbahnm157a70e86ogptgtew2p1py",
+  "fields": {
+    "session_data": ".eJxVjDsOgzAQBe-ydWTJNjZeyvQ5g7VrL5-AjAS4inL3CIWG9s3M-0B-UxnWuFAZKg0CHdQZHhCpHmOsu2xxytCBvm9MaZZygn-v0lqObWJ1Kuqiu3qtWZbn5d4ORtpH6KDpvWY2TI6x9aKT9X0TGLU3GjHnYDL3gS0aMa2zbL0ERyaFoK1DFPj-AJGlP3I:1vnzvN:T3CX8pIo4S2hIbY1M4Qyig0QP7pVzutQqxc72_jbiBM",
+    "expire_date": "2026-02-19T14:01:37.128Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lkp0likemhg8d68g6i00d160yvbsbl1d",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayIsImNhcnQiOnt9fQ:1vooc8:9y6w_SM3tl02YArQGNi7jX7UdeK5J-rHOXMokvrYYXA",
+    "expire_date": "2026-02-21T20:09:08.092Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lmzo5f79o3njum5gz9prae2vfx05nk9x",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vo0Sg:909H6dsURYM45SnbNcGiAau_fNUzHZQ91XbywQOJ6T8",
+    "expire_date": "2026-02-19T14:36:02.595Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ma44do2ek1kgs7yi4syi2647tfx2u3p5",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vonxf:Yiwkaerm0b6VqPJt20r-a356BgZkHSkNu27rU47oqqk",
+    "expire_date": "2026-02-21T19:27:19.076Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mccmg59f6dtz376u7gioiw7ro51hpr9t",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vnxHo:E_bNssEFux3XyJvOPLuHEYLxFXcBuTS6zts2F2McGa8",
+    "expire_date": "2026-02-19T11:12:36.441Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "moq1l20kphvq8wfgfrh2wc9n45jxu1tc",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1voo3Y:1Q9bzThUQQIbVVRY16j8SosPTxn2OsKzx0qIrbBpgto",
+    "expire_date": "2026-02-21T19:33:24.427Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "n8y56ludypn1kogb9d8rosdezd4bm6zi",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vonyP:eWDuaeYaWVzNzW7Fy8tv5fRqitUS9ftkvKQF4DVy-gI",
+    "expire_date": "2026-02-21T19:28:05.031Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "n9ls8n69csdjdww4j4kcrq5d8ox53led",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vo122:iECJMhW-l59nKUqxUGCqaWc-eESIUC5H-PaF1QuScCM",
+    "expire_date": "2026-02-19T15:12:34.803Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "nmbsx2bnbmvlownixi7xj6f88ynyntno",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vonyS:y67Y9PJkKtJ53IZxQHcWwmZjX4dTSCnomBEaF2FlYGE",
+    "expire_date": "2026-02-21T19:28:08.305Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "nx6x5m4b7sug2l241kwggz4ue4d2frot",
+  "fields": {
+    "session_data": ".eJxVjDsOgzAQBe-ydWTJNjZeyvQ5g7VrL5-AjAS4inL3CIWG9s3M-0B-UxnWuFAZKg0CHdQZHhCpHmOsu2xxytCBvm9MaZZygn-v0lqObWJ1Kuqiu3qtWZbn5d4ORtpH6KDpvWY2TI6x9aKT9X0TGLU3GjHnYDL3gS0aMa2zbL0ERyaFoK1DFPj-AJGlP3I:1vo0Cw:Gx5qgmZcgbtD1T8wXJE9Cs-5N0_OKxSGwN-tYmILaec",
+    "expire_date": "2026-02-19T14:19:46.998Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "o7x5vdggwbf30rpe6i05216dnxby21gy",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vonyf:9btL9gWbhx0PbD6U-ifa88iqpkCoJw2b0rwWQ9EC91c",
+    "expire_date": "2026-02-21T19:28:21.835Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "p11gab6jyxh78hr6gxlu0ugrxuhc1wzd",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vnywb:PJVG3oDsvN2xkgDSwT6-hyPwE6Z2QI0MC3SGAxKhchg",
+    "expire_date": "2026-02-19T12:58:49.007Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "p5ub98g66mkex0vu6huekwbvq7x7wxc7",
+  "fields": {
+    "session_data": ".eJxVjEEKgzAQAP-yZwkkMTHrsfe-QXaTTWNbFIyexL-L4KG9zgyzw0DbWoatyjKMCXrQ0PwypviR6RLpTdNrVnGe1mVkdSXqtlU95yTfx93-DQrVAj202Wtmw-QYOy86Wp_bwKi90YgpBZM4B7ZoxHTOsvUSHJkYgrYOUaCBSMsK_X4cJx5kOto:1vmvON:RA0HHlmKqfGPw6CWiL2z3LXGbNslEI0afqhehLjumhg",
+    "expire_date": "2026-02-16T14:59:07.251Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ph6dcidxk1bvzu62w7q2xdeu799cqr0l",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vnxVc:gp10BdM6Q089MvU_ZJP07HFBl4-qi72qdcdADCgPNa8",
+    "expire_date": "2026-02-19T11:26:52.562Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qr9rmwaqjv59yuskoz0rpjtcs50jot1u",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vo0gG:KHrXOnhyXMlFki4hWgbk1GHsabY0E96ZM40Etx0P7H0",
+    "expire_date": "2026-02-19T14:50:04.562Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qwz4kzuxngz3go2kg5sgjfoqouzlw8rg",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1voJX6:Rr2uPwnqopqaaehMZUfHBOgHb-dplCFJqbpopd9McP0",
+    "expire_date": "2026-02-20T10:57:52.627Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "t9btibvycb6u8gxltoy3fnpwazlvekmh",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vo0av:35uvhBm3ggTATYCT5rcy81_-Wo-IqGa1yDf7Oloj038",
+    "expire_date": "2026-02-19T14:44:33.677Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "u04djhz2uqmyfhq7d87waidvb026xpm3",
+  "fields": {
+    "session_data": ".eJxVjEsOhCAQBe_Sa0MCDEiznP2cgXQDfkaDicrKePeJGTduX1W9A9KXSr-EmUpfqc_goU7QQKC6D6FueQ1jAg_yuTHFKZcL_HsRl7KvI4tLETfdxGdJeX7f7uNgoG0AD6_OSmbFZBhbm2XUtns5RmmVREzJqcSdY40qq9Zo1jY7Qyo6J7VBzNBApHUHf4BEB16f5w_vIUQR:1vo05w:sjB5OzrN2x7fHyEv4V6up87kjso0ou1_djez8uGB7to",
+    "expire_date": "2026-02-19T14:12:32.874Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "u3mj0hge8owlsbw9ui5dz09z759zbetk",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vonyP:eWDuaeYaWVzNzW7Fy8tv5fRqitUS9ftkvKQF4DVy-gI",
+    "expire_date": "2026-02-21T19:28:05.426Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "unuishzvvcgpuvgnf4yr3lljphji10cl",
+  "fields": {
+    "session_data": ".eJxVjEEOgyAQAP-y54YEEGQ99t43kF1Yqm2jieDJ-PfGxIvXmcnskGhtMOzHAyJtbYxblTVOGQbQcGNM6SvzKfKH5vei0jK3dWJ1JuqyVb2WLL_n1d4GI9URBuiK18yGyTH2XnSyvnSBUXujEXMOJnMJbNGI6Z1l6yU4MikEbR2iwPEHK1I62g:1vopTs:f7mdiM1-i7cF4C0AqPBZLeLF0QClxS9bpLvKlUaHdJo",
+    "expire_date": "2026-02-21T21:04:40.580Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xleugtpp4wqfgp47n4k74bp27kdrbils",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vo0ni:AeqcIUr9r7I_HzyQk3pZ2Eg9PZMqoXmyZTzh67Vb9_s",
+    "expire_date": "2026-02-19T14:57:46.722Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ycor35lv9eeo3g1nvowyg4nqof7dhqf4",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1voo3Y:1Q9bzThUQQIbVVRY16j8SosPTxn2OsKzx0qIrbBpgto",
+    "expire_date": "2026-02-21T19:33:24.512Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zgmll4inww9davpbrlrhkt7ho1fml7u6",
+  "fields": {
+    "session_data": "eyJkamFuZ29fbGFuZ3VhZ2UiOiJ1ayJ9:1vnxQK:TSMSz-OGPoD0bVuCOvH-0DBAJF_q8HX4uJlMqnBGHtc",
+    "expire_date": "2026-02-19T11:21:24.955Z"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 9,
+  "fields": {
+    "name": "╩т│Єєў│ ёт│ўъш",
+    "name_ru": "╓тхЄюўэ√х ётхўш",
+    "description": "╤т│ўъш ч ът│Єъютшьш рЁюьрЄрьш",
+    "order": 8
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 10,
+  "fields": {
+    "name": "└ЁюьрЄэ│ ёт│ўъш",
+    "name_ru": "└ЁюьрЄшўхёъшх ётхўш",
+    "description": "╤т│ўъш ч хъчюЄшўэшьш чрярїрьш",
+    "order": 4
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 12,
+  "fields": {
+    "name": "─хЁхтэ│ ёт│ўъш",
+    "name_ru": "─Ёхтхёэ√х ётхўш",
+    "description": "╤т│ўъш ч фхЁхт эшьш эюЄърьш",
+    "order": 7
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 16,
+  "fields": {
+    "name": "╩ырёшўэ│ ёт│ўъш",
+    "name_ru": "╩ырёёшўхёъшх ётхўш",
+    "description": "╤т│ўъш │ч ЄЁрфшЎ│щэшьш рЁюьрЄрьш",
+    "order": 6
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 18,
+  "fields": {
+    "name": "┬юёъютрэ│ ёт│ўъш",
+    "name_ru": "╧Ёхьшєь ётхўш",
+    "description": "╤т│ўъш яЁхь│єь  ъюёЄ│",
+    "order": 5
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 19,
+  "fields": {
+    "name": "╩рЄхуюЁш  ЄхёЄ 1 єъЁ",
+    "name_ru": "╩рЄхуюЁш   ЄхёЄ 1 Ёєё",
+    "description": "",
+    "order": 1
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 20,
+  "fields": {
+    "name": "╩рЄхуюЁш  ЄхёЄ 2 єъЁ",
+    "name_ru": "╩рЄхуюЁш  ЄхёЄ 2 Ёєё",
+    "description": "",
+    "order": 2
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 21,
+  "fields": {
+    "name": "╩рЄхуюЁш  ЄхёЄ 3 єъЁ",
+    "name_ru": "╩рЄхуюЁш  ЄхёЄ 3 Ёєё",
+    "description": "",
+    "order": 3
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 192,
+  "fields": {
+    "name": "╩рЁфрьюэ ёт│ўър #1",
+    "name_ru": "╩рЁфрьюэ ётхўр #1",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╩рЁфрьюэ. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╩рЁфрьюэ. ╬Є Iris Aroma.",
+    "price": "305.29",
+    "image": "candles/1_c4MOTKa.jpg",
+    "category": null,
+    "order": 1,
+    "is_hit": true,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 193,
+  "fields": {
+    "name": "┬рэ│ы№ ёт│ўър #2",
+    "name_ru": "┬рэшы№ ётхўр #2",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ┬рэ│ы№. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ┬рэшы№. ╬Є Iris Aroma.",
+    "price": "469.88",
+    "image": "candles/2_jLeOh15.jpg",
+    "category": null,
+    "order": 2,
+    "is_hit": true,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 194,
+  "fields": {
+    "name": "╠єёъєё ёт│ўър #3",
+    "name_ru": "╠єёъєё ётхўр #3",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠єёъєё. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠єёъєё. ╬Є Iris Aroma.",
+    "price": "393.04",
+    "image": "candles/3_xtecTAJ.jpg",
+    "category": null,
+    "order": 3,
+    "is_hit": true,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 195,
+  "fields": {
+    "name": "╩рЁфрьюэ ёт│ўър #4",
+    "name_ru": "╩рЁфрьюэ ётхўр #4",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╩рЁфрьюэ. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╩рЁфрьюэ. ╬Є Iris Aroma.",
+    "price": "131.28",
+    "image": "candles/4_6zSBW6J.jpg",
+    "category": null,
+    "order": 4,
+    "is_hit": true,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 196,
+  "fields": {
+    "name": "╪юъюырф ёт│ўър #5",
+    "name_ru": "╪юъюырф ётхўр #5",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╪юъюырф. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╪юъюырф. ╬Є Iris Aroma.",
+    "price": "493.50",
+    "image": "candles/5_g4pdtKE.jpg",
+    "category": null,
+    "order": 5,
+    "is_hit": true,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 197,
+  "fields": {
+    "name": "▀сыєъю ёт│ўър #6",
+    "name_ru": "▀сыюъю ётхўр #6",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ▀сыєъю. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ▀сыюъю. ╬Є Iris Aroma.",
+    "price": "241.79",
+    "image": "candles/6_Al4CaxB.jpg",
+    "category": 12,
+    "order": 6,
+    "is_hit": true,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 198,
+  "fields": {
+    "name": "▀сыєъю ёт│ўър #7",
+    "name_ru": "▀сыюъю ётхўр #7",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ▀сыєъю. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ▀сыюъю. ╬Є Iris Aroma.",
+    "price": "161.58",
+    "image": "candles/candle_198.jpg",
+    "category": 18,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 199,
+  "fields": {
+    "name": "┬рэ│ы№ ёт│ўър #8",
+    "name_ru": "┬рэшы№ ётхўр #8",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ┬рэ│ы№. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ┬рэшы№. ╬Є Iris Aroma.",
+    "price": "360.69",
+    "image": "candles/candle_199.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 200,
+  "fields": {
+    "name": "╦шьюэ ёт│ўър #9",
+    "name_ru": "╦шьюэ ётхўр #9",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╦шьюэ. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╦шьюэ. ╬Є Iris Aroma.",
+    "price": "348.53",
+    "image": "candles/candle_200.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 201,
+  "fields": {
+    "name": "╩юЁшЎр ёт│ўър #10",
+    "name_ru": "╩юЁшЎр ётхўр #10",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╩юЁшЎр. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╩юЁшЎр. ╬Є Iris Aroma.",
+    "price": "463.81",
+    "image": "candles/candle_201.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 202,
+  "fields": {
+    "name": "╥Ёю эфр ёт│ўър #11",
+    "name_ru": "╨ючр ётхўр #11",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╥Ёю эфр. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╨ючр. ╬Є Iris Aroma.",
+    "price": "453.31",
+    "image": "candles/candle_202.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 203,
+  "fields": {
+    "name": "╩рЁфрьюэ ёт│ўър #12",
+    "name_ru": "╩рЁфрьюэ ётхўр #12",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╩рЁфрьюэ. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╩рЁфрьюэ. ╬Є Iris Aroma.",
+    "price": "463.36",
+    "image": "candles/candle_203.jpg",
+    "category": 12,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 204,
+  "fields": {
+    "name": "└яхы№ёшэ ёт│ўър #13",
+    "name_ru": "└яхы№ёшэ ётхўр #13",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь └яхы№ёшэ. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь └яхы№ёшэ. ╬Є Iris Aroma.",
+    "price": "198.32",
+    "image": "candles/candle_204.jpg",
+    "category": 10,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 205,
+  "fields": {
+    "name": "╠хф ёт│ўър #14",
+    "name_ru": "╠╕ф ётхўр #14",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠хф. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠╕ф. ╬Є Iris Aroma.",
+    "price": "143.96",
+    "image": "candles/candle_205.jpg",
+    "category": 18,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 206,
+  "fields": {
+    "name": "╦│ё ёт│ўър #15",
+    "name_ru": "╦хё ётхўр #15",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╦│ё. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╦хё. ╬Є Iris Aroma.",
+    "price": "335.15",
+    "image": "candles/candle_206.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 207,
+  "fields": {
+    "name": "╠єёъєё ёт│ўър #16",
+    "name_ru": "╠єёъєё ётхўр #16",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠єёъєё. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠єёъєё. ╬Є Iris Aroma.",
+    "price": "453.38",
+    "image": "candles/candle_207.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 208,
+  "fields": {
+    "name": "╠юЁё№ъшщ сЁшч ёт│ўър #17",
+    "name_ru": "╠юЁёъющ сЁшч ётхўр #17",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠юЁё№ъшщ сЁшч. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠юЁёъющ сЁшч. ╬Є Iris Aroma.",
+    "price": "74.27",
+    "image": "candles/candle_208.jpg",
+    "category": 9,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 209,
+  "fields": {
+    "name": "╠єёъєё ёт│ўър #18",
+    "name_ru": "╠єёъєё ётхўр #18",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠єёъєё. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠єёъєё. ╬Є Iris Aroma.",
+    "price": "112.42",
+    "image": "candles/candle_209.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 210,
+  "fields": {
+    "name": "╥Ёю эфр ёт│ўър #19",
+    "name_ru": "╨ючр ётхўр #19",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╥Ёю эфр. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╨ючр. ╬Є Iris Aroma.",
+    "price": "130.86",
+    "image": "candles/candle_210.jpg",
+    "category": 9,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 211,
+  "fields": {
+    "name": "╠юЁё№ъшщ сЁшч ёт│ўър #20",
+    "name_ru": "╠юЁёъющ сЁшч ётхўр #20",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠юЁё№ъшщ сЁшч. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠юЁёъющ сЁшч. ╬Є Iris Aroma.",
+    "price": "233.06",
+    "image": "candles/candle_211.jpg",
+    "category": 12,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 212,
+  "fields": {
+    "name": "╩юЁшЎр ёт│ўър #21",
+    "name_ru": "╩юЁшЎр ётхўр #21",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╩юЁшЎр. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╩юЁшЎр. ╬Є Iris Aroma.",
+    "price": "448.68",
+    "image": "candles/candle_212.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 213,
+  "fields": {
+    "name": "╩юЁшЎр ёт│ўър #22",
+    "name_ru": "╩юЁшЎр ётхўр #22",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╩юЁшЎр. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╩юЁшЎр. ╬Є Iris Aroma.",
+    "price": "122.08",
+    "image": "candles/candle_213.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 214,
+  "fields": {
+    "name": "╥Ёю эфр ёт│ўър #23",
+    "name_ru": "╨ючр ётхўр #23",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╥Ёю эфр. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╨ючр. ╬Є Iris Aroma.",
+    "price": "296.03",
+    "image": "candles/candle_214.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 215,
+  "fields": {
+    "name": "╠юЁё№ъшщ сЁшч ёт│ўър #24",
+    "name_ru": "╠юЁёъющ сЁшч ётхўр #24",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠юЁё№ъшщ сЁшч. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠юЁёъющ сЁшч. ╬Є Iris Aroma.",
+    "price": "472.36",
+    "image": "candles/candle_215.jpg",
+    "category": 12,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 216,
+  "fields": {
+    "name": "▀сыєъю ёт│ўър #25",
+    "name_ru": "▀сыюъю ётхўр #25",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ▀сыєъю. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ▀сыюъю. ╬Є Iris Aroma.",
+    "price": "263.70",
+    "image": "candles/candle_216.jpg",
+    "category": 10,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 217,
+  "fields": {
+    "name": "╦шьюэ ёт│ўър #26",
+    "name_ru": "╦шьюэ ётхўр #26",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╦шьюэ. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╦шьюэ. ╬Є Iris Aroma.",
+    "price": "469.59",
+    "image": "candles/candle_217.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 218,
+  "fields": {
+    "name": "╠хф ёт│ўър #27",
+    "name_ru": "╠╕ф ётхўр #27",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠хф. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠╕ф. ╬Є Iris Aroma.",
+    "price": "50.56",
+    "image": "candles/candle_218.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 219,
+  "fields": {
+    "name": "▀сыєъю ёт│ўър #28",
+    "name_ru": "▀сыюъю ётхўр #28",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ▀сыєъю. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ▀сыюъю. ╬Є Iris Aroma.",
+    "price": "64.44",
+    "image": "candles/candle_219.jpg",
+    "category": 18,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 220,
+  "fields": {
+    "name": "╩ртєэш ёт│ўър #29",
+    "name_ru": "└Ёсєч ётхўр #29",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╩ртєэш. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь └Ёсєч. ╬Є Iris Aroma.",
+    "price": "186.97",
+    "image": "candles/candle_220.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 221,
+  "fields": {
+    "name": "╞рёь│э ёт│ўър #30",
+    "name_ru": "╞рёьшэ ётхўр #30",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╞рёь│э. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╞рёьшэ. ╬Є Iris Aroma.",
+    "price": "307.62",
+    "image": "candles/candle_221.jpg",
+    "category": 10,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 222,
+  "fields": {
+    "name": "┬рэ│ы№ ёт│ўър #31",
+    "name_ru": "┬рэшы№ ётхўр #31",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ┬рэ│ы№. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ┬рэшы№. ╬Є Iris Aroma.",
+    "price": "396.97",
+    "image": "candles/candle_222.jpg",
+    "category": 16,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 223,
+  "fields": {
+    "name": "╩юЁшЎр ёт│ўър #32",
+    "name_ru": "╩юЁшЎр ётхўр #32",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╩юЁшЎр. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╩юЁшЎр. ╬Є Iris Aroma.",
+    "price": "477.41",
+    "image": "candles/candle_223.jpg",
+    "category": 12,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 224,
+  "fields": {
+    "name": "╩ртєэш ёт│ўър #33",
+    "name_ru": "└Ёсєч ётхўр #33",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╩ртєэш. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь └Ёсєч. ╬Є Iris Aroma.",
+    "price": "339.30",
+    "image": "candles/candle_224.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 225,
+  "fields": {
+    "name": "╠юЁё№ъшщ сЁшч ёт│ўър #34",
+    "name_ru": "╠юЁёъющ сЁшч ётхўр #34",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠юЁё№ъшщ сЁшч. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠юЁёъющ сЁшч. ╬Є Iris Aroma.",
+    "price": "360.04",
+    "image": "candles/candle_225.jpg",
+    "category": 16,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 226,
+  "fields": {
+    "name": "▀сыєъю ёт│ўър #35",
+    "name_ru": "▀сыюъю ётхўр #35",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ▀сыєъю. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ▀сыюъю. ╬Є Iris Aroma.",
+    "price": "463.27",
+    "image": "candles/candle_226.jpg",
+    "category": 10,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 227,
+  "fields": {
+    "name": "╠юЁё№ъшщ сЁшч ёт│ўър #36",
+    "name_ru": "╠юЁёъющ сЁшч ётхўр #36",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠юЁё№ъшщ сЁшч. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠юЁёъющ сЁшч. ╬Є Iris Aroma.",
+    "price": "274.46",
+    "image": "candles/candle_227.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 228,
+  "fields": {
+    "name": "╠єёъєё ёт│ўър #37",
+    "name_ru": "╠єёъєё ётхўр #37",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠єёъєё. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠єёъєё. ╬Є Iris Aroma.",
+    "price": "127.93",
+    "image": "candles/candle_228.jpg",
+    "category": 16,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 229,
+  "fields": {
+    "name": "╠юЁё№ъшщ сЁшч ёт│ўър #38",
+    "name_ru": "╠юЁёъющ сЁшч ётхўр #38",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠юЁё№ъшщ сЁшч. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠юЁёъющ сЁшч. ╬Є Iris Aroma.",
+    "price": "214.55",
+    "image": "candles/candle_229.jpg",
+    "category": 12,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 230,
+  "fields": {
+    "name": "▀сыєъю ёт│ўър #39",
+    "name_ru": "▀сыюъю ётхўр #39",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ▀сыєъю. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ▀сыюъю. ╬Є Iris Aroma.",
+    "price": "454.11",
+    "image": "candles/candle_230.jpg",
+    "category": 12,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 231,
+  "fields": {
+    "name": "╪юъюырф ёт│ўър #40",
+    "name_ru": "╪юъюырф ётхўр #40",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╪юъюырф. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╪юъюырф. ╬Є Iris Aroma.",
+    "price": "228.88",
+    "image": "candles/candle_231.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 232,
+  "fields": {
+    "name": "╦шьюэ ёт│ўър #41",
+    "name_ru": "╦шьюэ ётхўр #41",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╦шьюэ. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╦шьюэ. ╬Є Iris Aroma.",
+    "price": "154.27",
+    "image": "candles/candle_232.jpg",
+    "category": 10,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 233,
+  "fields": {
+    "name": "╠єёъєё ёт│ўър #42",
+    "name_ru": "╠єёъєё ётхўр #42",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠єёъєё. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠єёъєё. ╬Є Iris Aroma.",
+    "price": "299.06",
+    "image": "candles/candle_233.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 234,
+  "fields": {
+    "name": "┬рэ│ы№ ёт│ўър #43",
+    "name_ru": "┬рэшы№ ётхўр #43",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ┬рэ│ы№. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ┬рэшы№. ╬Є Iris Aroma.",
+    "price": "292.04",
+    "image": "candles/candle_234.jpg",
+    "category": 9,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 235,
+  "fields": {
+    "name": "╦ртрэфютшщ ёт│ўър #44",
+    "name_ru": "╦ртрэфют√щ ётхўр #44",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╦ртрэфютшщ. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╦ртрэфют√щ. ╬Є Iris Aroma.",
+    "price": "268.77",
+    "image": "candles/candle_235.jpg",
+    "category": 18,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 236,
+  "fields": {
+    "name": "╠єёъєё ёт│ўър #45",
+    "name_ru": "╠єёъєё ётхўр #45",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╠єёъєё. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╠єёъєё. ╬Є Iris Aroma.",
+    "price": "100.35",
+    "image": "candles/candle_236.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 237,
+  "fields": {
+    "name": "╥Ёю эфр ёт│ўър #46",
+    "name_ru": "╨ючр ётхўр #46",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╥Ёю эфр. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╨ючр. ╬Є Iris Aroma.",
+    "price": "357.53",
+    "image": "candles/candle_237.jpg",
+    "category": 12,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 238,
+  "fields": {
+    "name": "╥Ёю эфр ёт│ўър #47",
+    "name_ru": "╨ючр ётхўр #47",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╥Ёю эфр. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╨ючр. ╬Є Iris Aroma.",
+    "price": "282.00",
+    "image": "candles/candle_238.jpg",
+    "category": 12,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": 30
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 239,
+  "fields": {
+    "name": "╩юЁшЎр ёт│ўър #48",
+    "name_ru": "╩юЁшЎр ётхўр #48",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╩юЁшЎр. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╩юЁшЎр. ╬Є Iris Aroma.",
+    "price": "437.33",
+    "image": "candles/candle_239.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 240,
+  "fields": {
+    "name": "╩рЁфрьюэ ёт│ўър #49",
+    "name_ru": "╩рЁфрьюэ ётхўр #49",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╩рЁфрьюэ. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╩рЁфрьюэ. ╬Є Iris Aroma.",
+    "price": "223.98",
+    "image": "candles/candle_240.jpg",
+    "category": 19,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": null
+  }
+},
+{
+  "model": "shop.candle",
+  "pk": 241,
+  "fields": {
+    "name": "╥Ёю эфр ёт│ўър #50",
+    "name_ru": "╨ючр ётхўр #50",
+    "description": "╩Ёрёштр рЁюьрЄэр ёт│ўър ч чрярїюь ╥Ёю эфр. ┬│ф Iris Aroma.",
+    "description_ru": "╩Ёрёштр  рЁюьрЄэр  ётхўр ё чрярїюь ╨ючр. ╬Є Iris Aroma.",
+    "price": "406.53",
+    "image": "candles/candle_241.jpg",
+    "category": null,
+    "order": 0,
+    "is_hit": false,
+    "is_on_sale": false,
+    "discount_percent": 20
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 6,
+  "fields": {
+    "full_name": "Stanislav",
+    "phone": "+380934144277",
+    "email": "snobys911@gmail.com",
+    "city": "ь. ╬фхёр, ╬фхё№ър юсы.",
+    "warehouse": "╬Єфхыхэшх ╣2 - ┬│фф│ыхээ  ╣2: тєы. ┴рчютр, 16 (╧ЁюьЁшэюъ, 7 ъь)",
+    "notes": "",
+    "agree_to_terms": true,
+    "created_at": "2026-02-06T19:03:15.279Z",
+    "updated_at": "2026-02-06T19:03:15.279Z",
+    "status": "new"
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 7,
+  "fields": {
+    "full_name": "BLASTED",
+    "phone": "+380934144277",
+    "email": "snobys911@gmail.com",
+    "city": "ё. ╨│тэх, ─ЁюуюсшЎ№ъшщ Ё-э, ╦№т│тё№ър юсы.",
+    "warehouse": "╬Єфхыхэшх ╣1 - ╧єэъЄ яЁшщьрээ -тшфрў│ (фю 30 ъу): тєы. ╦№т│тё№ър, 15",
+    "notes": "╥┼╤╥",
+    "agree_to_terms": true,
+    "created_at": "2026-02-07T10:04:04.810Z",
+    "updated_at": "2026-02-07T10:04:04.811Z",
+    "status": "new"
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 8,
+  "fields": {
+    "full_name": "╧р∙хэъю ╤Єрэшёырт",
+    "phone": "+380934144277",
+    "email": "snobys911@gmail.com",
+    "city": "ь. ─э│яЁю, ─э│яЁюяхЄЁютё№ър юсы.",
+    "warehouse": "╬Єфхыхэшх ╣16 - ┬│фф│ыхээ  ╣16 (фю 30 ъу): тєы. ┬рЁЄютшї ═хср, 43",
+    "notes": "ЄхёЄ!!!",
+    "agree_to_terms": true,
+    "created_at": "2026-02-07T19:20:37.272Z",
+    "updated_at": "2026-02-07T19:20:37.272Z",
+    "status": "new"
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 9,
+  "fields": {
+    "full_name": "╧р∙хэъю ╤Єрэшёырт",
+    "phone": "+380934144277",
+    "email": "ss@gmail.com",
+    "city": "ь. ─э│яЁю, ─э│яЁюяхЄЁютё№ър юсы.",
+    "warehouse": "╬Єфхыхэшх ╣1 - ┬│фф│ыхээ  ╣1: тєы. ╤юэ ўэр ═рсхЁхцэр, 114",
+    "notes": "111",
+    "agree_to_terms": true,
+    "created_at": "2026-02-07T19:22:13.131Z",
+    "updated_at": "2026-02-07T19:22:13.131Z",
+    "status": "new"
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 10,
+  "fields": {
+    "full_name": "╧р∙хэъю ╤Єрэшёырт",
+    "phone": "+380934144277",
+    "email": "snobys228@gmail.com",
+    "city": "ёьЄ ┬хышър ╬ыхъёрэфЁ│тър, ┴хЁшёыртё№ъшщ Ё-э, ╒хЁёюэё№ър юсы.",
+    "warehouse": "╬Єфхыхэшх ╣1 - ┬│фф│ыхээ  ╣1: тєы. ┴ЁрЄё№ър, 17",
+    "notes": "╬рюты",
+    "agree_to_terms": true,
+    "created_at": "2026-02-07T19:29:06.454Z",
+    "updated_at": "2026-02-07T19:29:06.454Z",
+    "status": "new"
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 11,
+  "fields": {
+    "full_name": "╧р∙хэъю ╤Єрэшёырт",
+    "phone": "+380934144277",
+    "email": "snobys228@gmail.com",
+    "city": "ё. ╬ыхъёрэфЁ│тър, ─э│яЁютё№ъшщ Ё-э, ─э│яЁюяхЄЁютё№ър юсы.",
+    "warehouse": "╬Єфхыхэшх ╣1 - ┬│фф│ыхээ  ╣1: тєы. ╓хэЄЁры№эр, 1",
+    "notes": "╒юўє ьэюую ётхўхххъ",
+    "agree_to_terms": true,
+    "created_at": "2026-02-07T19:34:21.083Z",
+    "updated_at": "2026-02-07T19:34:21.083Z",
+    "status": "new"
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 12,
+  "fields": {
+    "full_name": "╧р∙хэъю ╤Єрэшёырт",
+    "phone": "+380934144277",
+    "email": "snobys228@gmail.com",
+    "city": "ё. ╬ыхъёрэфЁ│тър, ─э│яЁютё№ъшщ Ё-э, ─э│яЁюяхЄЁютё№ър юсы.",
+    "warehouse": "╬Єфхыхэшх ╣1 - ┬│фф│ыхээ  ╣1: тєы. ╓хэЄЁры№эр, 1",
+    "notes": "Ї√тЇ√т",
+    "agree_to_terms": true,
+    "created_at": "2026-02-07T19:44:15.785Z",
+    "updated_at": "2026-02-07T19:44:15.785Z",
+    "status": "new"
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 13,
+  "fields": {
+    "full_name": "╧р∙хэъю ╤Єрэшёырт",
+    "phone": "+380934144277",
+    "email": "snobys228@gmail.com",
+    "city": "ь. ─э│яЁю, ─э│яЁюяхЄЁютё№ър юсы.",
+    "warehouse": "╬Єфхыхэшх ╣1 - ┬│фф│ыхээ  ╣1: тєы. ╤юэ ўэр ═рсхЁхцэр, 114",
+    "notes": "",
+    "agree_to_terms": true,
+    "created_at": "2026-02-07T19:48:24.222Z",
+    "updated_at": "2026-02-07T19:48:24.222Z",
+    "status": "new"
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 14,
+  "fields": {
+    "full_name": "╧р∙хэъю ╤Єрэшёырт",
+    "phone": "+380934144277",
+    "email": "snobys228@gmail.com",
+    "city": "ё. ╬ыхъёрэфЁ│тър, ─э│яЁютё№ъшщ Ё-э, ─э│яЁюяхЄЁютё№ър юсы.",
+    "warehouse": "╬Єфхыхэшх ╣1 - ┬│фф│ыхээ  ╣1: тєы. ╓хэЄЁры№эр, 1",
+    "notes": "╥єЎ",
+    "agree_to_terms": true,
+    "created_at": "2026-02-07T20:09:05.714Z",
+    "updated_at": "2026-02-07T20:09:05.714Z",
+    "status": "new"
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 15,
+  "fields": {
+    "full_name": "╧р∙хэъю ╤Єрэшёырт",
+    "phone": "+380934144277",
+    "email": "snobys228@gmail.com",
+    "city": "ё. ╬ыхъёрэфЁ│тър, ─э│яЁютё№ъшщ Ё-э, ─э│яЁюяхЄЁютё№ър юсы.",
+    "warehouse": "╬Єфхыхэшх ╣1 - ┬│фф│ыхээ  ╣1: тєы. ╓хэЄЁры№эр, 1",
+    "notes": "Їт√Ї√т",
+    "agree_to_terms": true,
+    "created_at": "2026-02-07T21:04:38.010Z",
+    "updated_at": "2026-02-07T21:04:38.010Z",
+    "status": "new"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 6,
+  "fields": {
+    "order": 6,
+    "candle": 194,
+    "quantity": 3,
+    "price": "393.04"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 7,
+  "fields": {
+    "order": 6,
+    "candle": 197,
+    "quantity": 4,
+    "price": "241.79"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 8,
+  "fields": {
+    "order": 7,
+    "candle": 195,
+    "quantity": 3,
+    "price": "131.28"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 9,
+  "fields": {
+    "order": 7,
+    "candle": 241,
+    "quantity": 3,
+    "price": "406.53"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 10,
+  "fields": {
+    "order": 8,
+    "candle": 192,
+    "quantity": 1,
+    "price": "305.29"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 11,
+  "fields": {
+    "order": 9,
+    "candle": 194,
+    "quantity": 3,
+    "price": "393.04"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 12,
+  "fields": {
+    "order": 10,
+    "candle": 197,
+    "quantity": 2,
+    "price": "241.79"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 13,
+  "fields": {
+    "order": 10,
+    "candle": 223,
+    "quantity": 2,
+    "price": "477.41"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 14,
+  "fields": {
+    "order": 11,
+    "candle": 192,
+    "quantity": 3,
+    "price": "305.29"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 15,
+  "fields": {
+    "order": 11,
+    "candle": 195,
+    "quantity": 3,
+    "price": "131.28"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 16,
+  "fields": {
+    "order": 11,
+    "candle": 193,
+    "quantity": 2,
+    "price": "469.88"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 17,
+  "fields": {
+    "order": 12,
+    "candle": 196,
+    "quantity": 2,
+    "price": "493.50"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 18,
+  "fields": {
+    "order": 12,
+    "candle": 194,
+    "quantity": 3,
+    "price": "393.04"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 19,
+  "fields": {
+    "order": 13,
+    "candle": 197,
+    "quantity": 3,
+    "price": "241.79"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 20,
+  "fields": {
+    "order": 14,
+    "candle": 192,
+    "quantity": 2,
+    "price": "305.29"
+  }
+},
+{
+  "model": "shop.orderitem",
+  "pk": 21,
+  "fields": {
+    "order": 15,
+    "candle": 229,
+    "quantity": 1,
+    "price": "214.55"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-02-01T16:53:10.922Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "1",
+    "object_repr": "└Ёюьрёт│ўър MANGO & COCOS 330 у",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-02-02T15:10:14.325Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "88",
+    "object_repr": "╥хёЄютр  ётхўр #50",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Aroma\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-02-02T15:10:25.961Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "88",
+    "object_repr": "╥хёЄютр  ётхўр #50",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Aroma\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-02-02T17:37:50.527Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "1",
+    "object_repr": "└Ёюьрёт│ўър MANGO & COCOS 330 у",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\", \"\\u0412 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\\u0435 \\u0441\\u043e \\u0441\\u043a\\u0438\\u0434\\u043a\\u043e\\u0439\", \"\\u0421\\u043a\\u0438\\u0434\\u043a\\u0430 (%)\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-02-02T17:39:49.703Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "65",
+    "object_repr": "╥хёЄютр  ётхўр #27",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-02-02T17:40:04.379Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "1",
+    "object_repr": "└Ёюьрёт│ўър MANGO & COCOS 330 у",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-02-02T17:40:21.633Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "1",
+    "object_repr": "└Ёюьрёт│ўър MANGO & COCOS 330 у",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\", \"\\u0412 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\\u0435 \\u0441\\u043e \\u0441\\u043a\\u0438\\u0434\\u043a\\u043e\\u0439\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-02-02T17:40:32.837Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "1",
+    "object_repr": "└Ёюьрёт│ўър MANGO & COCOS 330 у",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\", \"\\u0412 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\\u0435 \\u0441\\u043e \\u0441\\u043a\\u0438\\u0434\\u043a\\u043e\\u0439\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-02-02T17:43:10.872Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "88",
+    "object_repr": "╥хёЄютр  ётхўр #50",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-02-02T17:43:17.455Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "84",
+    "object_repr": "╥хёЄютр  ётхўр #46",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-02-02T17:43:23.123Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "79",
+    "object_repr": "╥хёЄютр  ётхўр #41",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-02-02T17:44:25.265Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "87",
+    "object_repr": "╥хёЄютр  ётхўр #49",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-02-02T17:45:05.435Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "79",
+    "object_repr": "╥хёЄютр  ётхўр #41",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-02-02T17:45:12.669Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "84",
+    "object_repr": "╥хёЄютр  ётхўр #46",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-02-02T17:45:23.902Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "65",
+    "object_repr": "╥хёЄютр  ётхўр #27",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2026-02-02T17:45:38.262Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "88",
+    "object_repr": "╥хёЄютр  ётхўр #50",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\", \"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\", \"\\u0412 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\\u0435 \\u0441\\u043e \\u0441\\u043a\\u0438\\u0434\\u043a\\u043e\\u0439\", \"\\u0421\\u043a\\u0438\\u0434\\u043a\\u0430 (%)\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2026-02-02T17:45:55.513Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "87",
+    "object_repr": "╥хёЄютр  ётхўр #49",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2026-02-02T17:46:17.949Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "88",
+    "object_repr": "╥хёЄютр  ётхўр #50",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2026-02-02T17:46:27.959Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "87",
+    "object_repr": "╥хёЄютр  ётхўр #49",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\", \"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2026-02-02T17:46:59.750Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "1",
+    "object_repr": "└Ёюьрёт│ўър MANGO & COCOS 330 у",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2026-02-02T17:47:21.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "86",
+    "object_repr": "╥хёЄютр  ётхўр #48",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\", \"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2026-02-02T17:53:41.160Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "1",
+    "object_repr": "┬рэшы№",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2026-02-02T17:53:48.000Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "2",
+    "object_repr": "╪юъюырф",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2026-02-02T17:54:06.852Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "3",
+    "object_repr": "╦ртрэфр",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2026-02-02T17:54:31.908Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "85",
+    "object_repr": "╥хёЄютр  ётхўр #47",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u0430\\u0442\\u0435\\u0433\\u043e\\u0440\\u0438\\u044f\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.105Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "85",
+    "object_repr": "╥хёЄютр  ётхўр #47",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.105Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "83",
+    "object_repr": "╥хёЄютр  ётхўр #45",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.105Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "82",
+    "object_repr": "╥хёЄютр  ётхўр #44",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.105Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "81",
+    "object_repr": "╥хёЄютр  ётхўр #43",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.105Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "80",
+    "object_repr": "╥хёЄютр  ётхўр #42",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.105Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "78",
+    "object_repr": "╥хёЄютр  ётхўр #40",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.105Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "77",
+    "object_repr": "╥хёЄютр  ётхўр #39",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.105Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "76",
+    "object_repr": "╥хёЄютр  ётхўр #38",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.105Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "75",
+    "object_repr": "╥хёЄютр  ётхўр #37",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.105Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "74",
+    "object_repr": "╥хёЄютр  ётхўр #36",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "73",
+    "object_repr": "╥хёЄютр  ётхўр #35",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "72",
+    "object_repr": "╥хёЄютр  ётхўр #34",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "71",
+    "object_repr": "╥хёЄютр  ётхўр #33",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "70",
+    "object_repr": "╥хёЄютр  ётхўр #32",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "69",
+    "object_repr": "╥хёЄютр  ётхўр #31",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "68",
+    "object_repr": "╥хёЄютр  ётхўр #30",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "67",
+    "object_repr": "╥хёЄютр  ётхўр #29",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "66",
+    "object_repr": "╥хёЄютр  ётхўр #28",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "65",
+    "object_repr": "╥хёЄютр  ётхўр #27",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "64",
+    "object_repr": "╥хёЄютр  ётхўр #26",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "63",
+    "object_repr": "╥хёЄютр  ётхўр #25",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "62",
+    "object_repr": "╥хёЄютр  ётхўр #24",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "61",
+    "object_repr": "╥хёЄютр  ётхўр #23",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "60",
+    "object_repr": "╥хёЄютр  ётхўр #22",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "59",
+    "object_repr": "╥хёЄютр  ётхўр #21",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "58",
+    "object_repr": "╥хёЄютр  ётхўр #20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "57",
+    "object_repr": "╥хёЄютр  ётхўр #19",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "56",
+    "object_repr": "╥хёЄютр  ётхўр #18",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "55",
+    "object_repr": "╥хёЄютр  ётхўр #17",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "54",
+    "object_repr": "╥хёЄютр  ётхўр #16",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "53",
+    "object_repr": "╥хёЄютр  ётхўр #15",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "52",
+    "object_repr": "╥хёЄютр  ётхўр #14",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "51",
+    "object_repr": "╥хёЄютр  ётхўр #13",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "50",
+    "object_repr": "╥хёЄютр  ётхўр #12",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "49",
+    "object_repr": "╥хёЄютр  ётхўр #11",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "48",
+    "object_repr": "╥хёЄютр  ётхўр #10",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "47",
+    "object_repr": "╥хёЄютр  ётхўр #9",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "46",
+    "object_repr": "╥хёЄютр  ётхўр #8",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.106Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "45",
+    "object_repr": "╥хёЄютр  ётхўр #7",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "44",
+    "object_repr": "╥хёЄютр  ётхўр #6",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "43",
+    "object_repr": "╥хёЄютр  ётхўр #5",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "42",
+    "object_repr": "╥хёЄютр  ётхўр #4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "41",
+    "object_repr": "╥хёЄютр  ётхўр #3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "40",
+    "object_repr": "╥хёЄютр  ётхўр #2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "39",
+    "object_repr": "╥хёЄютр  ётхўр #1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "38",
+    "object_repr": "╥хёЄютр  ётхўр #2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "37",
+    "object_repr": "╥хёЄютр  ётхўр #1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "36",
+    "object_repr": "╥хёЄютр  ётхўр #18",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "35",
+    "object_repr": "╥хёЄютр  ётхўр #17",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "34",
+    "object_repr": "╥хёЄютр  ётхўр #16",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "33",
+    "object_repr": "╥хёЄютр  ётхўр #15",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "32",
+    "object_repr": "╥хёЄютр  ётхўр #14",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "31",
+    "object_repr": "╥хёЄютр  ётхўр #13",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "30",
+    "object_repr": "╥хёЄютр  ётхўр #12",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "29",
+    "object_repr": "╥хёЄютр  ётхўр #11",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "28",
+    "object_repr": "╥хёЄютр  ётхўр #10",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "27",
+    "object_repr": "╥хёЄютр  ётхўр #9",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "26",
+    "object_repr": "╥хёЄютр  ётхўр #8",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "25",
+    "object_repr": "╥хёЄютр  ётхўр #7",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "24",
+    "object_repr": "╥хёЄютр  ётхўр #6",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "23",
+    "object_repr": "╥хёЄютр  ётхўр #5",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "22",
+    "object_repr": "╥хёЄютр  ётхўр #4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "21",
+    "object_repr": "╥хёЄютр  ётхўр #3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "20",
+    "object_repr": "╥хёЄютр  ётхўр #2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "19",
+    "object_repr": "╥хёЄютр  ётхўр #1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "18",
+    "object_repr": "╥хёЄютр  ётхўр #7",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "17",
+    "object_repr": "╥хёЄютр  ётхўр #6",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "16",
+    "object_repr": "╥хёЄютр  ётхўр #5",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "15",
+    "object_repr": "╥хёЄютр  ётхўр #4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "14",
+    "object_repr": "╥хёЄютр  ётхўр #3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.107Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "13",
+    "object_repr": "╥хёЄютр  ётхўр #2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.108Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "12",
+    "object_repr": "╥хёЄютр  ётхўр #1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.108Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "11",
+    "object_repr": "╥хёЄютр  ётхўр #10",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.108Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "10",
+    "object_repr": "╥хёЄютр  ётхўр #9",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.108Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "9",
+    "object_repr": "╥хёЄютр  ётхўр #8",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.108Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "8",
+    "object_repr": "╥хёЄютр  ётхўр #7",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.108Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "7",
+    "object_repr": "╥хёЄютр  ётхўр #6",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.108Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "6",
+    "object_repr": "╥хёЄютр  ётхўр #5",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.108Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "5",
+    "object_repr": "╥хёЄютр  ётхўр #4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.108Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "4",
+    "object_repr": "╥хёЄютр  ётхўр #3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.108Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "3",
+    "object_repr": "╥хёЄютр  ётхўр #2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.108Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "2",
+    "object_repr": "╥хёЄютр  ётхўр #1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.108Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "87",
+    "object_repr": "╥хёЄютр  ётхўр #49",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.108Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "84",
+    "object_repr": "╥хёЄютр  ётхўр #46",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.108Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "79",
+    "object_repr": "╥хёЄютр  ётхўр #41",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.108Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "88",
+    "object_repr": "╥хёЄютр  ётхўр #50",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.108Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "86",
+    "object_repr": "╥хёЄютр  ётхўр #48",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2026-02-02T17:57:10.108Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "1",
+    "object_repr": "└Ёюьрёт│ўър MANGO & COCOS 330 у",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2026-02-02T18:02:24.537Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "188",
+    "object_repr": "╤хЁхсЁ эр  ╥шь№ э Ч ╫єтёЄтю",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2026-02-02T18:02:30.294Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "89",
+    "object_repr": "┬юы°хсэр  ┬рэшы№э√щ ьєёё Ч ╠руш ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2026-02-02T18:02:35.251Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "90",
+    "object_repr": "╥рщэр  ╦ртрэфют√щ ўрё Ч ╫єтёЄтю",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2026-02-02T18:04:25.233Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "188",
+    "object_repr": "╤хЁхсЁ эр  ╥шь№ э Ч ╫єтёЄтю",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2026-02-02T18:04:40.319Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "188",
+    "object_repr": "╤хЁхсЁ эр  ╥шь№ э Ч ╫єтёЄтю",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2026-02-04T16:12:40.200Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "187",
+    "object_repr": "╥хяыр  ╤рэфрыютюх фхЁхтю Ч └ЄьюёЇхЁр",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\", \"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\", \"\\u0412 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\\u0435 \\u0441\\u043e \\u0441\\u043a\\u0438\\u0434\\u043a\\u043e\\u0439\", \"\\u0421\\u043a\\u0438\\u0434\\u043a\\u0430 (%)\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2026-02-04T16:12:53.858Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "188",
+    "object_repr": "╤хЁхсЁ эр  ╥шь№ э Ч ╫єтёЄтю",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2026-02-05T09:16:44.115Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "187",
+    "object_repr": "sadsadasd",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 (\\u0443\\u043a\\u0440)\", \"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 (\\u0440\\u0443\\u0441)\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 (\\u0443\\u043a\\u0440)\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 (\\u0440\\u0443\\u0441)\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2026-02-05T09:23:36.559Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "187",
+    "object_repr": "╥хяыр  ╤рэфрыютюх фхЁхтю Ч └ЄьюёЇхЁр",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 (\\u0443\\u043a\\u0440)\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 (\\u0443\\u043a\\u0440)\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2026-02-05T09:24:07.568Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "187",
+    "object_repr": "ssss",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2026-02-05T09:28:26.341Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "188",
+    "object_repr": "╤хЁхсЁ эр  ╥шь№ э Ч ╫єтёЄтю",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 (\\u0443\\u043a\\u0440)\", \"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 (\\u0440\\u0443\\u0441)\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 (\\u0443\\u043a\\u0440)\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 (\\u0440\\u0443\\u0441)\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2026-02-05T09:28:53.020Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "187",
+    "object_repr": "╥хяыр  ╤рэфрыютюх фхЁхтю Ч └ЄьюёЇхЁр",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2026-02-05T09:28:58.077Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "188",
+    "object_repr": "╤хЁхсЁ эр  ╥шь№ э Ч ╫єтёЄтю",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2026-02-05T09:29:50.424Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "189",
+    "object_repr": "ЇтртЇтр",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2026-02-05T09:33:12.425Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "188",
+    "object_repr": "╤хЁхсЁ эр  ╥шь№ э Ч ╫єтёЄтю",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2026-02-05T09:33:20.780Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "187",
+    "object_repr": "╥хяыр  ╤рэфрыютюх фхЁхтю Ч └ЄьюёЇхЁр",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\", \"\\u0412 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\\u0435 \\u0441\\u043e \\u0441\\u043a\\u0438\\u0434\\u043a\\u043e\\u0439\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2026-02-05T09:33:33.996Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "189",
+    "object_repr": "ЇтртЇтр",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\", \"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\", \"\\u0412 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\\u0435 \\u0441\\u043e \\u0441\\u043a\\u0438\\u0434\\u043a\\u043e\\u0439\", \"\\u0421\\u043a\\u0438\\u0434\\u043a\\u0430 (%)\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 131,
+  "fields": {
+    "action_time": "2026-02-05T09:34:58.019Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "189",
+    "object_repr": "ЇтртЇтр",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 132,
+  "fields": {
+    "action_time": "2026-02-05T09:35:26.812Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "190",
+    "object_repr": "Ёє",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 133,
+  "fields": {
+    "action_time": "2026-02-05T09:36:38.897Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "190",
+    "object_repr": "Ёє",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u0430\\u0442\\u0435\\u0433\\u043e\\u0440\\u0438\\u044f\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 134,
+  "fields": {
+    "action_time": "2026-02-05T09:39:22.532Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "190",
+    "object_repr": "єъЁ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 (\\u0443\\u043a\\u0440)\", \"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 UA\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 (\\u0443\\u043a\\u0440)\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 UA\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 135,
+  "fields": {
+    "action_time": "2026-02-05T09:42:00.204Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "190",
+    "object_repr": "єъЁ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 136,
+  "fields": {
+    "action_time": "2026-02-05T09:42:34.786Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "191",
+    "object_repr": "єъЁ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 137,
+  "fields": {
+    "action_time": "2026-02-05T09:53:26.247Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "7",
+    "object_repr": "╤яхЎшш",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 (\\u0443\\u043a\\u0440)\", \"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 (\\u0440\\u0443\\u0441)\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 138,
+  "fields": {
+    "action_time": "2026-02-05T09:54:00.161Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "7",
+    "object_repr": "╤яхЎшш",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 (\\u0443\\u043a\\u0440)\", \"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 (\\u0440\\u0443\\u0441)\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 139,
+  "fields": {
+    "action_time": "2026-02-05T09:56:38.749Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "1",
+    "object_repr": "┬рэшы№",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 UA\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 140,
+  "fields": {
+    "action_time": "2026-02-05T09:57:11.248Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "181",
+    "object_repr": "Ёє",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 RU\", \"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 UA\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 RU\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 UA\", \"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\", \"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\", \"\\u0412 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\\u0435 \\u0441\\u043e \\u0441\\u043a\\u0438\\u0434\\u043a\\u043e\\u0439\", \"\\u0421\\u043a\\u0438\\u0434\\u043a\\u0430 (%)\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 141,
+  "fields": {
+    "action_time": "2026-02-05T13:16:05.396Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "186",
+    "object_repr": "┬юы°хсэр  ╩хфЁ Ч ╤Єшы№",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 (\\u0443\\u043a\\u0440)\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 (\\u0443\\u043a\\u0440)\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 142,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "188",
+    "object_repr": "╤хЁхсЁ эр  ╥шь№ э Ч ╫єтёЄтю",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 143,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "187",
+    "object_repr": "╥хяыр  ╤рэфрыютюх фхЁхтю Ч └ЄьюёЇхЁр",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 144,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "186",
+    "object_repr": "┬юы°хсэр  ╩хфЁ Ч ╤Єшы№",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 145,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "185",
+    "object_repr": "╠ уър  ╚ьсшЁ№ ш ьєёърЄэ√щ юЁхї Ч └ЄьюёЇхЁр",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 146,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "184",
+    "object_repr": "╠ уър  ╞рёьшэ Ч ╤Єшы№",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 147,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "183",
+    "object_repr": "┬юы°хсэр  ╪юъюырфэ√щ ьєёё Ч ┬шсЁрЎш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 148,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "182",
+    "object_repr": "═хцэр  ╩ыєсэшър Ч ╠хўЄ√",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 149,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "180",
+    "object_repr": "═хцэр  ┬рэшы№э√щ ьєёё Ч ╠руш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 150,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "179",
+    "object_repr": "─шър  ╪юъюырфэ√щ ьєёё Ч ╠руш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 151,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "178",
+    "object_repr": "─шър  ┬рэшы№э√щ ъхъё Ч └ЁюьрЄ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 152,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "177",
+    "object_repr": "╟юыюЄр  ╩юъюёютр  трэшы№ Ч ├рЁьюэш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 153,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "176",
+    "object_repr": "╥рщэр  ╥шь№ э Ч └ЁюьрЄ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 154,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "175",
+    "object_repr": "═хцэр  ╥шь№ э Ч ▌эхЁуш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 155,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "174",
+    "object_repr": "╒юыюфэр  └эшё Ч ╧рЁЇ■ь",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 156,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "173",
+    "object_repr": "╒юыюфэр  ╪юъюырфэ√щ ьєёё Ч ╠руш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 157,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "172",
+    "object_repr": "╥хяыр  ╦ртрэфют√щ ўрё Ч ╤Єшы№",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 158,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "171",
+    "object_repr": "═хцэр  ╪юъюырфэю-ряхы№ёшэют√щ Ч ╧рЁЇ■ь",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 159,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "170",
+    "object_repr": "╒юыюфэр  ╪юъюырфэ√щ ьєёё Ч ╠руш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 160,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "169",
+    "object_repr": "─шър  ╩юЁшЎр ш утючфшър Ч ╧рЁЇ■ь",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 161,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "168",
+    "object_repr": "─шър  ╠рэфрЁшэют√щ чрърЄ Ч ╧рЁЇ■ь",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 162,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "167",
+    "object_repr": "─шър  ╫шёЄр  ыртрэфр Ч ╫єтёЄтю",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 163,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "166",
+    "object_repr": "═хцэр  ╧Ёютрэёър  ыртрэфр Ч └ЄьюёЇхЁр",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 164,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "165",
+    "object_repr": "╟юыюЄр  ╨ючьрЁшэ Ч ╤Єшы№",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 165,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "164",
+    "object_repr": "╟юыюЄр  ╩ыєсэшър Ч └ЁюьрЄ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 166,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "163",
+    "object_repr": "╒юыюфэр  ╪юъюырфэю-ряхы№ёшэют√щ Ч ╠руш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 167,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "162",
+    "object_repr": "╟юыюЄр  ╫шёЄр  ыртрэфр Ч ╠руш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 168,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "161",
+    "object_repr": "╥рщэр  ╧Ёютрэёър  ыртрэфр Ч ├рЁьюэш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 169,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "160",
+    "object_repr": "╒юыюфэр  ┬рэшы№э√щ ьєёё Ч ▌эхЁуш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 170,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "159",
+    "object_repr": "╤тхЄыр  ╪юъюырфэ√щ ьєёё Ч └ЄьюёЇхЁр",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 171,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "158",
+    "object_repr": "╥хяыр  ╦ртрэфютюх яюых Ч └ЄьюёЇхЁр",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 172,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "157",
+    "object_repr": "═хцэр  ╥хьэ√щ °юъюырф Ч ┬шсЁрЎш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 173,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "156",
+    "object_repr": "─шър  ╩ыєсэшър Ч └ЁюьрЄ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 174,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "155",
+    "object_repr": "╠ уър  ╨ючьрЁшэ Ч ╠руш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 175,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "154",
+    "object_repr": "╒юыюфэр  └эшё Ч ╠руш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 176,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "153",
+    "object_repr": "─шър  ╧рышёрэфЁ Ч ┬шсЁрЎш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 177,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.610Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "152",
+    "object_repr": "╥рщэр  ┬рэшы№э√щ ъхъё Ч ├рЁьюэш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 178,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "151",
+    "object_repr": "╥рщэр  ╨ючьрЁшэ Ч ▌эхЁуш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 179,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "150",
+    "object_repr": "╥хяыр  ╨ючр ш яхЁёшъ Ч ▌эхЁуш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 180,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "149",
+    "object_repr": "╟юыюЄр  ┼схэютюх фхЁхтю Ч ▌эхЁуш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 181,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "148",
+    "object_repr": "╤тхЄыр  ┼схэютюх фхЁхтю Ч ╧рЁЇ■ь",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 182,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "147",
+    "object_repr": "╟юыюЄр  ┬рэшы№эр  ъырёёшър Ч ╠хўЄ√",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 183,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "146",
+    "object_repr": "╒юыюфэр  ╩юъюёютр  трэшы№ Ч ┬шсЁрЎш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 184,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "145",
+    "object_repr": "╟юыюЄр  ╩хфЁ Ч ╠хўЄ√",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 185,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "144",
+    "object_repr": "╠ уър  ┼схэютюх фхЁхтю Ч └ЁюьрЄ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 186,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "143",
+    "object_repr": "┬юы°хсэр  ┴хы№ушщёъшщ °юъюырф Ч ╠руш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 187,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "142",
+    "object_repr": "╟юыюЄр  ╤рэфрыютюх фхЁхтю Ч ╫єтёЄтю",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 188,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "141",
+    "object_repr": "╥хяыр  ┴хы№ушщёъшщ °юъюырф Ч ╫єтёЄтю",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 189,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "140",
+    "object_repr": "╤тхЄыр  ┬рэшы№эр  ъырёёшър Ч ▌эхЁуш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 190,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "139",
+    "object_repr": "╤тхЄыр  ┼схэютюх фхЁхтю Ч ▌эхЁуш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 191,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "138",
+    "object_repr": "═хцэр  ╩юЁшЎр ш утючфшър Ч └ЄьюёЇхЁр",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 192,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "137",
+    "object_repr": "─шър  └эшё Ч ╤Єшы№",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 193,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "136",
+    "object_repr": "╥рщэр  ╠ Єр ш срчшышъ Ч ╠хўЄ√",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 194,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "135",
+    "object_repr": "╥рщэр  ╧Ёютрэёър  ыртрэфр Ч └ЄьюёЇхЁр",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 195,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "134",
+    "object_repr": "╥рщэр  ├Ёє°р ш трэшы№ Ч ╧рЁЇ■ь",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 196,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "133",
+    "object_repr": "╤хЁхсЁ эр  ╚ьсшЁ№ ш ьєёърЄэ√щ юЁхї Ч ╠руш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 197,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "132",
+    "object_repr": "╥рщэр  ╩хфЁ Ч ├рЁьюэш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 198,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "131",
+    "object_repr": "╒юыюфэр  ╦ртрэфютюх яюых Ч └ЁюьрЄ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 199,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "130",
+    "object_repr": "╠ уър  ╩рЁфрьюэ Ч └ЄьюёЇхЁр",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 200,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "129",
+    "object_repr": "╠ уър  ╪юъюырфэ√щ ьєёё Ч ╠руш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 201,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "128",
+    "object_repr": "╟юыюЄр  ┬рэшы№э√щ ьєёё Ч ▌эхЁуш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 202,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "127",
+    "object_repr": "╠ уър  ╫шёЄр  ыртрэфр Ч ╧рЁЇ■ь",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 203,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "126",
+    "object_repr": "═хцэр  ╦ртрэфютюх яюых Ч ┬шсЁрЎш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 204,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "125",
+    "object_repr": "╤тхЄыр  ╪юъюырфэю-ряхы№ёшэют√щ Ч ╠руш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 205,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "124",
+    "object_repr": "╒юыюфэр  ╩рЁфрьюэ Ч ╫єтёЄтю",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 206,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "123",
+    "object_repr": "═хцэр  ╥хьэ√щ °юъюырф Ч └ЄьюёЇхЁр",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 207,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "122",
+    "object_repr": "┬юы°хсэр  ╠ Єр ш срчшышъ Ч ╫єтёЄтю",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 208,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "121",
+    "object_repr": "╥хяыр  ╠рэфрЁшэют√щ чрърЄ Ч └ЄьюёЇхЁр",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 209,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "120",
+    "object_repr": "╒юыюфэр  ╥шь№ э Ч ╧рЁЇ■ь",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 210,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "119",
+    "object_repr": "┬юы°хсэр  ╨ючьрЁшэ Ч └ЁюьрЄ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 211,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "118",
+    "object_repr": "╤хЁхсЁ эр  ┬рэшы№эр  ъырёёшър Ч └ЄьюёЇхЁр",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 212,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "117",
+    "object_repr": "╠ уър  ╩юъюёютр  трэшы№ Ч ╠хўЄ√",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 213,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "116",
+    "object_repr": "╒юыюфэр  ╩рЁфрьюэ Ч ├рЁьюэш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 214,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "115",
+    "object_repr": "╥хяыр  ╪юъюырфэ√щ ьєёё Ч ╫єтёЄтю",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 215,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "114",
+    "object_repr": "╥хяыр  ╪юъюырфэю-ряхы№ёшэют√щ Ч └ЄьюёЇхЁр",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 216,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "113",
+    "object_repr": "┬юы°хсэр  ╪рыЇхщ Ч ╫єтёЄтю",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 217,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "112",
+    "object_repr": "╟юыюЄр  ╠ Єр ш срчшышъ Ч ┬шсЁрЎш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 218,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "111",
+    "object_repr": "╒юыюфэр  ╥хьэ√щ °юъюырф Ч ├рЁьюэш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 219,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "110",
+    "object_repr": "╥хяыр  ╪рыЇхщ Ч ╤Єшы№",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 220,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "109",
+    "object_repr": "┬юы°хсэр  ┼схэютюх фхЁхтю Ч ╫єтёЄтю",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 221,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "108",
+    "object_repr": "╒юыюфэр  ┬рэшы№э√щ ъхъё Ч ╫єтёЄтю",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 222,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "107",
+    "object_repr": "╟юыюЄр  ╪рыЇхщ Ч └ЄьюёЇхЁр",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 223,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "106",
+    "object_repr": "═хцэр  ├Ёє°р ш трэшы№ Ч ╤Єшы№",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 224,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "105",
+    "object_repr": "╥рщэр  ┬рэшы№эр  ъырёёшър Ч ╠хўЄ√",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 225,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "104",
+    "object_repr": "┬юы°хсэр  ┬рэшы№э√щ ъхъё Ч ╧рЁЇ■ь",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 226,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "103",
+    "object_repr": "╥хяыр  ┬рэшы№э√щ ьєёё Ч └ЄьюёЇхЁр",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 227,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "102",
+    "object_repr": "─шър  ╧Ёютрэёър  ыртрэфр Ч └ЄьюёЇхЁр",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 228,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "101",
+    "object_repr": "╥рщэр  ╩юъюёютр  трэшы№ Ч └ЁюьрЄ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 229,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "100",
+    "object_repr": "╒юыюфэр  ╚ьсшЁ№ ш ьєёърЄэ√щ юЁхї Ч └ЁюьрЄ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 230,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "99",
+    "object_repr": "╤тхЄыр  ╩хфЁ Ч ▌эхЁуш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 231,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "98",
+    "object_repr": "═хцэр  ╩рЁфрьюэ Ч ▌эхЁуш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 232,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "97",
+    "object_repr": "╠ уър  ╩хфЁ Ч ┬шсЁрЎш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 233,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.611Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "96",
+    "object_repr": "─шър  ╧Ёютрэёър  ыртрэфр Ч ╠руш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 234,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.612Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "95",
+    "object_repr": "┬юы°хсэр  ╚ьсшЁ№ ш ьєёърЄэ√щ юЁхї Ч └ЄьюёЇхЁр",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 235,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.612Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "94",
+    "object_repr": "╤хЁхсЁ эр  ╧Ёютрэёър  ыртрэфр Ч ┬шсЁрЎш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 236,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.612Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "93",
+    "object_repr": "╥хяыр  ╩хфЁ Ч ├рЁьюэш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 237,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.612Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "92",
+    "object_repr": "╟юыюЄр  ┬рэшы№эр  ъырёёшър Ч ╧рЁЇ■ь",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 238,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.612Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "91",
+    "object_repr": "╥рщэр  └эшё Ч ▌эхЁуш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 239,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.612Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "90",
+    "object_repr": "╥рщэр  ╦ртрэфют√щ ўрё Ч ╫єтёЄтю",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 240,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.612Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "89",
+    "object_repr": "┬юы°хсэр  ┬рэшы№э√щ ьєёё Ч ╠руш ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 241,
+  "fields": {
+    "action_time": "2026-02-05T14:01:58.612Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "191",
+    "object_repr": "єъЁ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 242,
+  "fields": {
+    "action_time": "2026-02-05T14:02:03.173Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "181",
+    "object_repr": "єъЁ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 243,
+  "fields": {
+    "action_time": "2026-02-05T14:02:08.054Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "3",
+    "object_repr": "╦ртрэфр",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 244,
+  "fields": {
+    "action_time": "2026-02-05T14:02:08.054Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "2",
+    "object_repr": "__swap_tmp__2__82fd3fb3da7b4c2a88edd9562fc367c4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 245,
+  "fields": {
+    "action_time": "2026-02-05T14:02:08.054Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "4",
+    "object_repr": "__swap_tmp__4__7684bef8956a4bad8e98c855335b4419",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 246,
+  "fields": {
+    "action_time": "2026-02-05T14:02:08.054Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "5",
+    "object_repr": "__swap_tmp__5__d82e5b541a1f4072b6ddc1c0ff482f04",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 247,
+  "fields": {
+    "action_time": "2026-02-05T14:02:08.054Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "8",
+    "object_repr": "__swap_tmp__8__03ab8be11767441daba13d123864be45",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 248,
+  "fields": {
+    "action_time": "2026-02-05T14:02:08.054Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "1",
+    "object_repr": "┬рэiы№",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 249,
+  "fields": {
+    "action_time": "2026-02-05T14:02:08.054Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "6",
+    "object_repr": "─хЁхтю",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 250,
+  "fields": {
+    "action_time": "2026-02-05T14:02:08.054Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "7",
+    "object_repr": "ёяхЎii",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 251,
+  "fields": {
+    "action_time": "2026-02-05T14:08:37.715Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "211",
+    "object_repr": "╠юЁё№ъшщ сЁшч ёт│ўър #20",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 252,
+  "fields": {
+    "action_time": "2026-02-05T14:09:15.830Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "192",
+    "object_repr": "╩рЁфрьюэ ёт│ўър #1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 253,
+  "fields": {
+    "action_time": "2026-02-05T14:10:26.131Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "226",
+    "object_repr": "▀сыєъю ёт│ўър #35",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 254,
+  "fields": {
+    "action_time": "2026-02-05T14:10:38.258Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "226",
+    "object_repr": "▀сыєъю ёт│ўър #35",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 255,
+  "fields": {
+    "action_time": "2026-02-05T14:10:52.426Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "198",
+    "object_repr": "▀сыєъю ёт│ўър #7",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 256,
+  "fields": {
+    "action_time": "2026-02-05T14:13:12.513Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "226",
+    "object_repr": "▀сыєъю ёт│ўър #35",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 257,
+  "fields": {
+    "action_time": "2026-02-05T14:13:20.612Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "198",
+    "object_repr": "▀сыєъю ёт│ўър #7",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 258,
+  "fields": {
+    "action_time": "2026-02-05T14:13:25.358Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "226",
+    "object_repr": "▀сыєъю ёт│ўър #35",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 259,
+  "fields": {
+    "action_time": "2026-02-05T14:18:20.874Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "241",
+    "object_repr": "╥Ёю эфр ёт│ўър #50",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\", \"\\u0412 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\\u0435 \\u0441\\u043e \\u0441\\u043a\\u0438\\u0434\\u043a\\u043e\\u0439\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 260,
+  "fields": {
+    "action_time": "2026-02-05T14:18:36.470Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "241",
+    "object_repr": "╥Ёю эфр ёт│ўър #50",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u043a\\u0438\\u0434\\u043a\\u0430 (%)\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 261,
+  "fields": {
+    "action_time": "2026-02-05T14:18:48.227Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "221",
+    "object_repr": "╞рёь│э ёт│ўър #30",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 262,
+  "fields": {
+    "action_time": "2026-02-05T14:19:07.480Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "238",
+    "object_repr": "╥Ёю эфр ёт│ўър #47",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\\u0435 \\u0441\\u043e \\u0441\\u043a\\u0438\\u0434\\u043a\\u043e\\u0439\", \"\\u0421\\u043a\\u0438\\u0434\\u043a\\u0430 (%)\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 263,
+  "fields": {
+    "action_time": "2026-02-05T14:20:20.848Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "241",
+    "object_repr": "╥Ёю эфр ёт│ўър #50",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 264,
+  "fields": {
+    "action_time": "2026-02-05T14:20:30.626Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "221",
+    "object_repr": "╞рёь│э ёт│ўър #30",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 265,
+  "fields": {
+    "action_time": "2026-02-05T14:20:35.899Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "238",
+    "object_repr": "╥Ёю эфр ёт│ўър #47",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 266,
+  "fields": {
+    "action_time": "2026-02-05T14:20:51.465Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "238",
+    "object_repr": "╥Ёю эфр ёт│ўър #47",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 267,
+  "fields": {
+    "action_time": "2026-02-05T17:13:43.918Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "17",
+    "object_repr": "╠юЁёъшх ётхўш",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 268,
+  "fields": {
+    "action_time": "2026-02-05T17:13:43.918Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "15",
+    "object_repr": "╤тхцшх ётхўш",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 269,
+  "fields": {
+    "action_time": "2026-02-05T17:13:43.918Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "14",
+    "object_repr": "╤ырфъшх ётхўш",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 270,
+  "fields": {
+    "action_time": "2026-02-05T17:13:43.918Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "13",
+    "object_repr": "╧Ё э√х ётхўш",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 271,
+  "fields": {
+    "action_time": "2026-02-05T17:13:43.918Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "11",
+    "object_repr": "╘ЁєъЄют√х ётхўш",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 272,
+  "fields": {
+    "action_time": "2026-02-05T17:22:06.678Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "192",
+    "object_repr": "╩рЁфрьюэ ётхўр #1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\", \"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\", \"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 273,
+  "fields": {
+    "action_time": "2026-02-05T17:22:20.847Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "193",
+    "object_repr": "┬рэшы№ ётхўр #2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 274,
+  "fields": {
+    "action_time": "2026-02-05T17:22:34.540Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "194",
+    "object_repr": "╠єёъєё ётхўр #3",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 275,
+  "fields": {
+    "action_time": "2026-02-05T17:22:42.246Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "194",
+    "object_repr": "╠єёъєё ётхўр #3",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\", \"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 276,
+  "fields": {
+    "action_time": "2026-02-05T17:22:52.461Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "193",
+    "object_repr": "┬рэшы№ ётхўр #2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\", \"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 277,
+  "fields": {
+    "action_time": "2026-02-05T17:23:09.839Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "195",
+    "object_repr": "╩рЁфрьюэ ётхўр #4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\", \"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 278,
+  "fields": {
+    "action_time": "2026-02-05T17:23:22.235Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "196",
+    "object_repr": "╪юъюырф ётхўр #5",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 279,
+  "fields": {
+    "action_time": "2026-02-05T17:23:34.237Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "197",
+    "object_repr": "▀сыюъю ётхўр #6",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\", \"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 280,
+  "fields": {
+    "action_time": "2026-02-05T17:23:53.303Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "221",
+    "object_repr": "╞рёьшэ ётхўр #30",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\", \"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 281,
+  "fields": {
+    "action_time": "2026-02-05T17:24:27.620Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "195",
+    "object_repr": "╩рЁфрьюэ ётхўр #4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 282,
+  "fields": {
+    "action_time": "2026-02-05T17:24:35.709Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "196",
+    "object_repr": "╪юъюырф ётхўр #5",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 283,
+  "fields": {
+    "action_time": "2026-02-05T17:24:42.847Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "197",
+    "object_repr": "▀сыюъю ётхўр #6",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 284,
+  "fields": {
+    "action_time": "2026-02-05T17:25:05.701Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "238",
+    "object_repr": "╨ючр ётхўр #47",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\", \"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\", \"\\u0412 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\\u0435 \\u0441\\u043e \\u0441\\u043a\\u0438\\u0434\\u043a\\u043e\\u0439\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 285,
+  "fields": {
+    "action_time": "2026-02-05T17:25:17.791Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "193",
+    "object_repr": "┬рэшы№ ётхўр #2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 286,
+  "fields": {
+    "action_time": "2026-02-05T17:25:29.986Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "241",
+    "object_repr": "╨ючр ётхўр #50",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\", \"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\", \"\\u0412 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\\u0435 \\u0441\\u043e \\u0441\\u043a\\u0438\\u0434\\u043a\\u043e\\u0439\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 287,
+  "fields": {
+    "action_time": "2026-02-05T17:25:43.952Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "194",
+    "object_repr": "╠єёъєё ётхўр #3",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 288,
+  "fields": {
+    "action_time": "2026-02-05T17:25:56.409Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "196",
+    "object_repr": "╪юъюырф ётхўр #5",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0425\\u0438\\u0442 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 289,
+  "fields": {
+    "action_time": "2026-02-06T19:02:38.822Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "order"
+    ],
+    "object_id": "5",
+    "object_repr": "╟рьютыхээ  #5 - ╧р∙хэъю ╤Єрэшёырт",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 290,
+  "fields": {
+    "action_time": "2026-02-06T19:02:38.822Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "order"
+    ],
+    "object_id": "4",
+    "object_repr": "╟рьютыхээ  #4 - ╧р∙хэъю ╤Єрэшёырт",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 291,
+  "fields": {
+    "action_time": "2026-02-06T19:02:38.822Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "order"
+    ],
+    "object_id": "3",
+    "object_repr": "╟рьютыхээ  #3 - ╧р∙хэъю ╤Єрэшёырт",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 292,
+  "fields": {
+    "action_time": "2026-02-06T19:02:38.822Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "order"
+    ],
+    "object_id": "2",
+    "object_repr": "╟рьютыхээ  #2 - ╧р∙хэъю ╤Єрэшёырт",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 293,
+  "fields": {
+    "action_time": "2026-02-06T19:02:38.822Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "order"
+    ],
+    "object_id": "1",
+    "object_repr": "╟рьютыхээ  #1 - ╧р∙хэъю ╤Єрэшёырт",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 294,
+  "fields": {
+    "action_time": "2026-02-07T20:11:53.842Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "19",
+    "object_repr": "╤тхўър ЄхёЄ 1 єъЁ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 295,
+  "fields": {
+    "action_time": "2026-02-07T20:12:11.047Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "20",
+    "object_repr": "╤тхўър ЄхёЄ 2 Ёєё",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 296,
+  "fields": {
+    "action_time": "2026-02-07T20:12:36.337Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "19",
+    "object_repr": "╤тхўър ЄхёЄ 1 Ёєё",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 (\\u0443\\u043a\\u0440)\", \"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 (\\u0440\\u0443\\u0441)\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 297,
+  "fields": {
+    "action_time": "2026-02-07T20:18:01.879Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "19",
+    "object_repr": "╩рЄхуюЁш   ЄхёЄ 1 Ёєё",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 (\\u0443\\u043a\\u0440)\", \"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 (\\u0440\\u0443\\u0441)\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 298,
+  "fields": {
+    "action_time": "2026-02-07T20:18:07.638Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "20",
+    "object_repr": "╩рЄхуюЁш  ЄхёЄ 2 Ёєё",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 (\\u0443\\u043a\\u0440)\", \"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 (\\u0440\\u0443\\u0441)\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 299,
+  "fields": {
+    "action_time": "2026-02-07T20:18:19.036Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "20",
+    "object_repr": "╩рЄхуюЁш  ЄхёЄ 2 Ёєё",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 (\\u0443\\u043a\\u0440)\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 300,
+  "fields": {
+    "action_time": "2026-02-07T20:18:32.527Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "21",
+    "object_repr": "╩рЄхуюЁш  ЄхёЄ 3 Ёєё",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 301,
+  "fields": {
+    "action_time": "2026-02-07T20:21:34.074Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "21",
+    "object_repr": "╩рЄхуюЁш  ЄхёЄ 3 Ёєё",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 302,
+  "fields": {
+    "action_time": "2026-02-07T20:26:06.252Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "21",
+    "object_repr": "╩рЄхуюЁш  ЄхёЄ 3 єъЁ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 303,
+  "fields": {
+    "action_time": "2026-02-07T20:26:10.207Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "10",
+    "object_repr": "└ЁюьрЄэ│ ёт│ўъш",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 304,
+  "fields": {
+    "action_time": "2026-02-07T20:26:55.388Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "20",
+    "object_repr": "╩рЄхуюЁш  ЄхёЄ 2 єъЁ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 305,
+  "fields": {
+    "action_time": "2026-02-07T20:27:07.034Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "19",
+    "object_repr": "╩рЄхуюЁш  ЄхёЄ 1 єъЁ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 306,
+  "fields": {
+    "action_time": "2026-02-07T20:27:10.440Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "20",
+    "object_repr": "╩рЄхуюЁш  ЄхёЄ 2 єъЁ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 307,
+  "fields": {
+    "action_time": "2026-02-07T20:27:21.462Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "21",
+    "object_repr": "╩рЄхуюЁш  ЄхёЄ 3 єъЁ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 308,
+  "fields": {
+    "action_time": "2026-02-07T20:27:33.178Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "10",
+    "object_repr": "└ЁюьрЄэ│ ёт│ўъш",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 309,
+  "fields": {
+    "action_time": "2026-02-07T20:27:38.546Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "18",
+    "object_repr": "┬юёъютрэ│ ёт│ўъш",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 310,
+  "fields": {
+    "action_time": "2026-02-07T20:27:42.365Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "16",
+    "object_repr": "╩ырёшўэ│ ёт│ўъш",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 311,
+  "fields": {
+    "action_time": "2026-02-07T20:27:46.140Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "12",
+    "object_repr": "─хЁхтэ│ ёт│ўъш",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 312,
+  "fields": {
+    "action_time": "2026-02-07T20:27:49.629Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "9",
+    "object_repr": "╩т│Єєў│ ёт│ўъш",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 313,
+  "fields": {
+    "action_time": "2026-02-07T21:01:32.694Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "shop",
+      "candle"
+    ],
+    "object_id": "240",
+    "object_repr": "╩рЁфрьюэ ётхўр #49",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u0430\\u0442\\u0435\\u0433\\u043e\\u0440\\u0438\\u044f\"]}}]"
+  }
+}
+]

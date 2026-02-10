@@ -1,0 +1,56 @@
+{% extends 'shop/base.html' %}
+{% load i18n %}
+
+{% block content %}
+<section class="hero-banner" aria-label="{% trans "Главный баннер" %}">
+    <div class="slides">
+        <div class="slide is-active" style="background-image:url('{{ MEDIA_URL }}candles/banner/banner1.jpg')">
+            <div class="slide-caption">
+                <h2>{% trans "Cozy Candle — уют в каждом аромате" %}</h2>
+                <p>{% trans "Тепло, свет и атмосфера — выбери свою свечу." %}</p>
+            </div>
+        </div>
+        <div class="slide" style="background-image:url('{{ MEDIA_URL }}candles/banner/banner2.jpg')">
+            <div class="slide-caption">
+                <h2>{% trans "Ручная работа и натуральные ароматы" %}</h2>
+                <p>{% trans "Коллекции для дома и подарков." %}</p>
+            </div>
+        </div>
+        <div class="slide" style="background-image:url('{{ MEDIA_URL }}candles/banner/banner3.jpg')">
+            <div class="slide-caption">
+                <h2>{% trans "Новинки сезона" %}</h2>
+                <p>{% trans "Открой для себя свежие ароматы." %}</p>
+            </div>
+        </div>
+    </div>
+    <div class="banner-controls">
+        <div class="dots"></div>
+    </div>
+</section>
+
+<section class="hits-section" aria-label="{% trans "Хиты продаж" %}">
+    <div class="listing-header">
+        <h2>{% trans "Хиты продаж" %}</h2>
+        <div class="tagline">{% trans "Любимые ароматы наших покупателей" %}</div>
+    </div>
+
+    <div class="hits-grid">
+        {% for candle in candles|slice:":6" %}
+        <a class="card reveal" href="{% url 'product_detail' candle.pk %}">
+            <div class="card-badges">
+                {% if candle.is_hit %}<span class="badge badge-hit">Хит</span>{% endif %}
+                {% if candle.is_on_sale and candle.discount_percent %}<span class="badge badge-sale">-{{ candle.discount_percent }}%</span>{% endif %}
+            </div>
+            {% if candle.image and candle.image.url %}
+                <img src="{{ candle.image.url }}" alt="{{ candle.name }}">
+            {% else %}
+                <img src="https://picsum.photos/seed/{{ candle.pk|default:0 }}/600/400" alt="{{ candle.name }}">
+            {% endif %}
+            <h3>{{ candle.display_name }}</h3>
+            <p>{{ candle.category.display_name }}</p>
+            <strong>{{ candle.price }} ₴</strong>
+        </a>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}
