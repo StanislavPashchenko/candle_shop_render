@@ -38,7 +38,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-6r_&hxu5e@y-e0
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # Control debug with environment variable. Default True for local development.
-DEBUG = os.environ.get('DJANGO_DEBUG', 'True') == 'True'
+DEBUG = os.environ.get('DJANGO_DEBUG', 'False') == 'True'
 
 ALLOWED_HOSTS = [
     'candleshop.pythonanywhere.com',
