@@ -78,14 +78,9 @@
             <li><a href="{% url 'product_list' %}">{% trans "Все товары" %}</a></li>
             <li class="category-mobile-only">
                 <button type="button" class="cat-toggle" data-action="toggle-categories" aria-haspopup="dialog" aria-expanded="false">{% trans "Категории" %}</button>
-
                 <div class="mobile-categories" data-mobile-categories aria-hidden="true">
                     <div class="mobile-categories__backdrop" data-action="close-categories"></div>
                     <div class="mobile-categories__panel" role="dialog" aria-label="{% trans "Категории" %}" tabindex="-1">
-                        <div class="mobile-categories__header">
-                            <div class="mobile-categories__title">{% trans "Категории" %}</div>
-                            <button type="button" class="mobile-categories__close" data-action="close-categories" aria-label="{% trans "Закрыть" %}">×</button>
-                        </div>
                         <div class="mobile-categories__body">
                             <a class="mobile-categories__link" href="{% url 'product_list' %}">{% trans "Все товары" %}</a>
                             {% for cat in all_categories %}
@@ -94,14 +89,6 @@
                         </div>
                     </div>
                 </div>
-            </li>
-            <li class="category-mobile-only">
-                <button type="button" class="search-toggle" data-action="toggle-search" aria-haspopup="dialog" aria-expanded="false" aria-label="{% trans "Поиск" %}">
-                    <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                        <path d="M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16Z" stroke="currentColor" stroke-width="2"/>
-                        <path d="M21 21l-4.3-4.3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                    </svg>
-                </button>
             </li>
         </ul>
 
