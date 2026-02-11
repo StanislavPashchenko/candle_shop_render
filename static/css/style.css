@@ -26,7 +26,7 @@
 
     /* Search field sizing */
     --search-width-vw: 68vw; /* relative width — use vw to keep responsive */
-    --search-max-width: 760px; /* cap the search width */
+    --search-max-width: 660px; /* cap the search width */
     --search-height: 34px; /* height of search input */
 
     /* Language switch / cart offsets (distance from right edge) */
@@ -713,6 +713,9 @@ body{
         --hero-lang-switch-right: auto;
         --hero-lang-switch-bottom: auto;
         --hero-lang-switch-left: 8px;
+
+        --hero-lang-switch-offset-x: 0px;
+        --hero-lang-switch-offset-y: 0px;
     }
 
     /* Мобильная версия: показываем компактную строку поиска под логотипом */
@@ -738,18 +741,14 @@ body{
 
     .hero-inner{
         height:auto;
-        display:grid;
-        grid-template-columns: 1fr auto;
-        grid-template-areas:
-            "logo actions"
-            "search search";
+        display:flex;
         align-items:center;
-        row-gap:10px;
-        padding: 10px 12px;
+        justify-content:space-between;
+        gap:10px;
+        padding: 6px 12px;
     }
 
     .hero-langs{
-        grid-area:logo;
         position: static;
         left:auto;
         right:auto;
@@ -758,13 +757,7 @@ body{
         gap:0;
     }
 
-    .hero-actions{
-        grid-area:actions;
-        display:flex;
-        align-items:center;
-        gap:10px;
-        justify-content:flex-end;
-    }
+    .hero-actions{display:flex; align-items:center; gap:10px; justify-content:flex-end; margin-top:10px}
 
     .hero-lang-switch,
     .hero-cart{
@@ -775,26 +768,13 @@ body{
         bottom:auto;
     }
 
-    .hero-logo{height:44px; border-radius:10px}
+    .hero-logo{height:60px; width:auto; border-radius:10px; position:relative ; top:auto; left:-10px}
 
-    .hero-center{
-        grid-area:search;
-        margin:0;
-        align-items:stretch;
-        gap:0;
-    }
+    .hero-center{display:none}
 
     .hero-title{display:none}
 
-    .header-search{
-        margin:0;
-        position: static;
-        transform:none;
-        top:auto;
-        right:auto;
-        left:auto;
-        bottom:auto;
-    }
+    .header-search{display:none}
 
     .header-search input{
         width: 100%;
@@ -805,15 +785,7 @@ body{
     }
 
     /* Мобильная версия: переключатель языка становится частью компактного блока действий */
-    .hero-lang-switch{
-        display:flex;
-        position: static;
-        left:auto;
-        right:auto;
-        top:auto;
-        bottom:auto;
-        z-index:auto;
-    }
+    .hero-lang-switch{display:flex; position: static; left:auto; right:auto; top:auto; bottom:auto; z-index:auto}
     .hero-lang-switch .lang-switch{gap:var(--lang-btn-gap)}
     .hero-lang-switch .lang-btn{padding:var(--lang-btn-padding); font-size:var(--lang-btn-font-size)}
     
@@ -822,7 +794,7 @@ body{
     }
     
     .brand-logo{
-        height: 60px;
+        height: 80px;
     }
     
     .header-inner .lang-switch {
@@ -1437,18 +1409,18 @@ body.image-modal-open .category-bar{z-index:0}
     /* Use variables here with !important so mobile :root values apply */
     .hero-lang-switch{
         display:flex !important;
-        position: static !important;
+        position: relative !important;
         left: auto !important;
         right: auto !important;
-        top: auto !important;
+        top: 8px !important;
         bottom: auto !important;
     }
     /* Принудительный gap для переключателя языков, чтобы mobile-переменная точно применялась */
     .hero-lang-switch .lang-switch{gap:var(--lang-btn-gap) !important}
     .hero-cart{
         display: block !important;
-        position: static !important;
-        left: auto !important;
+        position: relative ;
+        left: -10px !important;
         right: auto !important;
         top: auto !important;
         bottom: auto !important;
