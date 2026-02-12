@@ -21,7 +21,7 @@ class CollectionAdmin(admin.ModelAdmin):
     ordering = ('order', 'code')
     fieldsets = (
         (None, {
-            'fields': ('code', 'title_uk', 'title_ru', 'description', 'order')
+            'fields': ('code', 'title_uk', 'title_ru', 'description_uk', 'description_ru', 'order')
         }),
     )
 

@@ -63,18 +63,12 @@
         <p>Выберите свечи под вечерний ритуал, подарок или уютный день дома.</p>
     </div>
     <div class="collections-grid">
-        <a href="{% url 'product_list' %}" class="collection-card reveal">
-            <h3>Для релакса</h3>
-            <p>Тёплые, мягкие ароматы для ванны, чтения и медитации.</p>
+        {% for collection in collections %}
+        <a href="{% url 'product_list' %}?collection={{ collection.code }}" class="collection-card reveal">
+            <h3>{{ collection.display_name }}</h3>
+            <p>{{ collection.display_description }}</p>
         </a>
-        <a href="{% url 'product_list' %}" class="collection-card reveal">
-            <h3>Для подарка</h3>
-            <p>Эстетичная упаковка и универсальные композиции, которые понравятся каждому.</p>
-        </a>
-        <a href="{% url 'product_list' %}" class="collection-card reveal">
-            <h3>Для дома</h3>
-            <p>Чистые ароматы, которые создают атмосферу без перегруза.</p>
-        </a>
+        {% endfor %}
     </div>
 </section>
 

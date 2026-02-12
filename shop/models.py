@@ -35,6 +35,8 @@ class Collection(models.Model):
     )
     title_uk = models.CharField(max_length=120, verbose_name='Назва (укр)')
     title_ru = models.CharField(max_length=120, blank=True, null=True, verbose_name='Название (рус)')
+    description_uk = models.TextField(blank=True, verbose_name='Опис (укр)')
+    description_ru = models.TextField(blank=True, null=True, verbose_name='Описание (рус)')
     description = models.TextField(blank=True, verbose_name='Опис / Описание')
     order = models.PositiveIntegerField(default=0, verbose_name='Порядок')
 
@@ -53,6 +55,14 @@ class Collection(models.Model):
         if lang.startswith('ru'):
             return self.title_ru or self.title_uk or ''
         return self.title_uk or self.title_ru or ''
+
+    def display_description(self):
+        lang = (translation.get_language() or '').lower()
+        if lang.startswith('uk'):
+            return self.description_uk or self.description_ru or self.description or ''
+        if lang.startswith('ru'):
+            return self.description_ru or self.description_uk or self.description or ''
+        return self.description_uk or self.description_ru or self.description or ''
 
 
 class Candle(models.Model):

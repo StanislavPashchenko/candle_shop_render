@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from django.utils import translation
-from .models import Candle
+from .models import Candle, Collection
 from django.core.paginator import Paginator
 from django.db.models import Q, Case, When, Value, IntegerField
 from django.db.models.functions import Lower
@@ -25,11 +25,19 @@ def home(request):
         fill_qs = Candle.objects.exclude(pk__in=exclude_ids).order_by('order', '-id')[:(6 - len(hits))]
         hits.extend(list(fill_qs))
     candles = hits
+    
+    # Get collections for mood section
+    collections = Collection.objects.all().order_by('order', 'code')
+    
     cart = request.session.get('cart', {})
     cart_count = sum(cart.values()) if isinstance(cart, dict) else 0
     lang = (translation.get_language() or 'uk')[:2]
     template = f'shop/home_{lang}.html'
-    return render(request, template, {'candles': candles, 'cart_count': cart_count})
+    return render(request, template, {
+        'candles': candles, 
+        'cart_count': cart_count,
+        'collections': collections
+    })
 
 
 def product_list(request):
@@ -47,6 +55,14 @@ def product_list(request):
             output_field=IntegerField(),
         )
     )
+    
+    # collection filter
+    collection_code = request.GET.get('collection')
+    if collection_code:
+        try:
+            qs = qs.filter(collection__code=collection_code)
+        except Exception:
+            pass
     
     if q:
         # Some DB backends (SQLite) have limited Unicode case-folding in SQL functions.

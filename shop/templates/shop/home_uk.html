@@ -63,18 +63,12 @@
         <p>Обирайте свічки для вечірнього ритуалу, подарунка чи затишного дня вдома.</p>
     </div>
     <div class="collections-grid">
-        <a href="{% url 'product_list' %}" class="collection-card reveal">
-            <h3>Для релаксу</h3>
-            <p>Теплі, м&apos;які аромати для ванни, читання та медитації.</p>
+        {% for collection in collections %}
+        <a href="{% url 'product_list' %}?collection={{ collection.code }}" class="collection-card reveal">
+            <h3>{{ collection.display_name }}</h3>
+            <p>{{ collection.display_description }}</p>
         </a>
-        <a href="{% url 'product_list' %}" class="collection-card reveal">
-            <h3>Для подарунка</h3>
-            <p>Естетична упаковка та універсальні композиції, що сподобаються кожному.</p>
-        </a>
-        <a href="{% url 'product_list' %}" class="collection-card reveal">
-            <h3>Для дому</h3>
-            <p>Чисті аромати, які створюють атмосферу без перевантаження.</p>
-        </a>
+        {% endfor %}
     </div>
 </section>
 
