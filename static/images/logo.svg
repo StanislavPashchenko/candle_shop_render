@@ -1,0 +1,36 @@
+<svg width="320" height="80" viewBox="0 0 320 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Good Karma Light</title>
+  <desc id="desc">Wordmark logo Good Karma Light</desc>
+
+  <!-- Фон оставляем прозрачным, чтобы вписываться в шапку сайта -->
+
+  <g transform="translate(10, 16)">
+    <!-- Основной текст -->
+    <text x="0" y="36"
+          font-family="Playfair Display, 'Times New Roman', serif"
+          font-size="30"
+          fill="#234a5f"
+          letter-spacing="0.08em">
+      Good Karma
+    </text>
+
+    <!-- Слово Light с тёплым оттенком -->
+    <text x="192" y="36"
+          font-family="Playfair Display, 'Times New Roman', serif"
+          font-size="30"
+          fill="#c28a50"
+          letter-spacing="0.12em">
+      Light
+    </text>
+
+    <!-- Тонкий слоган снизу (можно удалить при желании) -->
+    <text x="2" y="52"
+          font-family="Manrope, system-ui, -apple-system, 'Segoe UI', sans-serif"
+          font-size="9"
+          fill="#5b6b73"
+          letter-spacing="0.18em">
+      AROMATIC SOY CANDLES
+    </text>
+  </g>
+</svg>
+
