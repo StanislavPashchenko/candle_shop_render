@@ -146,9 +146,17 @@
 
         <ul class="category-top">
 
-            <li><a href="{% url 'home' %}">Главная</a></li>
+            <li class="category-mobile-only"><a href="{% url 'home' %}">Главная</a></li>
 
-            <li><a href="{% url 'product_list' %}">Все товары</a></li>
+            <li class="category-mobile-only"><a href="{% url 'product_list' %}">Все товары</a></li>
+
+            <li class="category-desktop-only"><a class="category-link--all" href="{% url 'product_list' %}">Все товары</a></li>
+
+            {% for cat in all_categories %}
+
+            <li class="category-desktop-only"><a href="{% url 'product_list' %}?category={{ cat.id }}">{{ cat.display_name }}</a></li>
+
+            {% endfor %}
 
             <li class="category-mobile-only">
                 <button type="button" class="cat-toggle" data-action="toggle-categories" aria-haspopup="dialog" aria-expanded="false">Категории</button>
@@ -181,30 +189,6 @@
             </li>
 
         </ul>
-
-        <div class="category-scroll" data-category-scroll>
-
-            <button class="category-scroll__btn category-scroll__btn--left" type="button" aria-label="Прокрутить влево" data-category-scroll-btn="left">‹</button>
-
-            <div class="category-scroll__viewport" data-category-scroll-viewport>
-
-                <ul class="category-list" data-category-scroll-list>
-
-                    {% for cat in all_categories %}
-
-                    <li><a href="{% url 'product_list' %}?category={{ cat.id }}">{{ cat.display_name }}</a></li>
-
-                    {% endfor %}
-
-                </ul>
-
-            </div>
-
-            <button class="category-scroll__btn category-scroll__btn--right" type="button" aria-label="Прокрутить вправо" data-category-scroll-btn="right">›</button>
-
-        </div>
-
-        
 
     </div>
 

@@ -161,6 +161,28 @@
 }
 
 
+
+/* "All products" button */
+
+.category-top a.category-link--all{
+
+    background: linear-gradient(90deg,#e6a96a,#c28a50);
+
+    color:#fff;
+
+    border-color: rgba(0,0,0,0.06);
+
+}
+
+.category-top a.category-link--all:hover{
+
+    background: linear-gradient(90deg,#d99a58,#b8793f);
+
+    color:#fff;
+
+}
+
+
 /* Home sections: collections, benefits, story, testimonials, FAQ */
 
 .home-section{
@@ -1073,7 +1095,7 @@ body{
 
     background: var(--accent);
 
-    color: #fff;
+    color: white;
 
     transform: translateY(-2px);
 
@@ -1201,6 +1223,34 @@ body{
 
     .mobile-categories{display:none !important}
 
+    .category-bar{background:#fff}
+
+    .category-bar .container{gap:10px; padding:0 10px; align-items:flex-start; justify-content:flex-start}
+
+    .category-top{gap:8px; flex-wrap:wrap; row-gap:8px; padding:8px 0; flex:1 1 auto; min-width:0; max-width:100%}
+
+    .category-top li a,
+
+    .category-top li button{padding:6px 10px; font-size:0.9rem; box-shadow:none; background:transparent}
+
+    .category-top li a.category-link--all{background: linear-gradient(90deg,#e6a96a,#c28a50); color:#fff}
+
+    .category-top li a.category-link--all:hover{background: linear-gradient(90deg,#d99a58,#b8793f); color:#fff}
+
+    .category-top li a:hover,
+
+    .category-top li button:hover{transform:none; box-shadow:none}
+
+    .category-scroll__btn{width:28px; height:28px; border-radius:10px; box-shadow:none; font-size:14px}
+
+    .category-wrap{flex:1 1 auto; min-width:0}
+
+    .category-list{gap:8px; overflow:visible; flex-wrap:wrap; justify-content:flex-start; padding:8px 0}
+
+    .category-list li a{padding:7px 10px; font-size:0.9rem; border-radius:999px; border:1px solid rgba(0,0,0,0.08); background:rgba(255,255,255,0.9)}
+
+    .category-list li a:hover{background: rgba(106, 163, 214, 0.12); color: var(--accent)}
+
 }
 
 
@@ -1254,6 +1304,8 @@ body{
     .nav-links{display:none}
 
     .category-list{display:none}
+
+    .category-desktop-only{display:none}
 
     .cat-toggle{display:inline-block}
 
@@ -2514,6 +2566,12 @@ body{
     .filters .actions{display:flex; gap:8px}
 
 }
+
+
+
+/* Pagination */
+
+.pagination{margin-top:28px; display:flex; gap:8px; align-items:center; justify-content:center; flex-wrap:wrap}
 
 
 
