@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils import translation
 
+
 class Category(models.Model):
     name = models.CharField(max_length=100, unique=True, verbose_name='Название (укр)')
     name_ru = models.CharField(max_length=100, blank=True, null=True, verbose_name='Название (рус)')
@@ -22,6 +23,38 @@ class Category(models.Model):
             return self.name_ru or self.name or ''
         return self.name or self.name_ru or ''
 
+
+class Collection(models.Model):
+    """Коллекции по настроению (Для релакса / Для подарка / Для дому и т.п.)."""
+
+    code = models.SlugField(
+        max_length=50,
+        unique=True,
+        verbose_name='Код (латиницей)',
+        help_text='Технический код, например relax, gift, home.',
+    )
+    title_uk = models.CharField(max_length=120, verbose_name='Назва (укр)')
+    title_ru = models.CharField(max_length=120, blank=True, null=True, verbose_name='Название (рус)')
+    description = models.TextField(blank=True, verbose_name='Опис / Описание')
+    order = models.PositiveIntegerField(default=0, verbose_name='Порядок')
+
+    class Meta:
+        verbose_name = 'Коллекция по настроению'
+        verbose_name_plural = 'Коллекции по настроению'
+        ordering = ['order', 'code']
+
+    def __str__(self):
+        return self.display_name()
+
+    def display_name(self):
+        lang = (translation.get_language() or '').lower()
+        if lang.startswith('uk'):
+            return self.title_uk or self.title_ru or ''
+        if lang.startswith('ru'):
+            return self.title_ru or self.title_uk or ''
+        return self.title_uk or self.title_ru or ''
+
+
 class Candle(models.Model):
     name = models.CharField(max_length=200, verbose_name='Название (укр)')
     name_ru = models.CharField(max_length=200, blank=True, null=True, verbose_name='Название (рус)')
@@ -34,6 +67,14 @@ class Candle(models.Model):
     is_hit = models.BooleanField(default=False, verbose_name='Хит продаж')
     is_on_sale = models.BooleanField(default=False, verbose_name='В продаже со скидкой')
     discount_percent = models.PositiveSmallIntegerField(null=True, blank=True, verbose_name='Скидка (%)')
+    collection = models.ForeignKey(
+        Collection,
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        verbose_name='Коллекция по настроению',
+        help_text='Свеча будет относиться к выбранной коллекции по настроению.',
+    )
 
     def discounted_price(self):
         if self.is_on_sale and self.discount_percent:

@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.utils.translation import gettext_lazy as _
-from .models import Candle, Category, Order, OrderItem
+from .models import Candle, Category, Collection, Order, OrderItem
 
 @admin.register(Category)
 class CategoryAdmin(admin.ModelAdmin):
@@ -13,11 +13,28 @@ class CategoryAdmin(admin.ModelAdmin):
         return obj.display_name()
     display_name.short_description = _('Название')
 
+
+@admin.register(Collection)
+class CollectionAdmin(admin.ModelAdmin):
+    list_display = ('display_name', 'code', 'order')
+    search_fields = ('code', 'title_uk', 'title_ru')
+    ordering = ('order', 'code')
+    fieldsets = (
+        (None, {
+            'fields': ('code', 'title_uk', 'title_ru', 'description', 'order')
+        }),
+    )
+
+    def display_name(self, obj):
+        return obj.display_name()
+
+    display_name.short_description = _('Название коллекции')
+
 @admin.register(Candle)
 class CandleAdmin(admin.ModelAdmin):
-    list_display = ('display_name', 'price', 'category', 'order', 'is_hit', 'is_on_sale', 'discount_percent')
+    list_display = ('display_name', 'price', 'category', 'collection', 'order', 'is_hit', 'is_on_sale', 'discount_percent')
     #list_editable = ('price', 'category', 'order', 'is_hit', 'is_on_sale', 'discount_percent')
-    list_filter = ('is_hit', 'is_on_sale', 'category')
+    list_filter = ('is_hit', 'is_on_sale', 'category', 'collection')
     search_fields = ('name', 'name_ru', 'category__name')
     ordering = ('order', '-id')
     fieldsets = (
@@ -25,7 +42,7 @@ class CandleAdmin(admin.ModelAdmin):
             'fields': ('name', 'name_ru', 'description', 'description_ru')
         }),
         ('Catalog', {
-            'fields': ('price', 'image', 'category', 'order', 'is_hit', 'is_on_sale', 'discount_percent')
+            'fields': ('price', 'image', 'category', 'collection', 'order', 'is_hit', 'is_on_sale', 'discount_percent')
         }),
     )
     def display_name(self, obj):

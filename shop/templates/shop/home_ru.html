@@ -5,20 +5,21 @@
     <div class="slides">
         <div class="slide is-active" style="background-image:url('{{ MEDIA_URL }}candles/banner/banner1.jpg')">
             <div class="slide-caption">
-                <h2>Cozy Candle — уют в каждом аромате</h2>
-                <p>Тепло, свет и атмосфера — выберите свою свечу.</p>
+                <h2>Good Karma Light — уют в каждом аромате</h2>
+                <p>Тепло, мягкий свет и тонкие композиции для дома и подарков.</p>
+                <a href="{% url 'product_list' %}" class="hero-cta-btn">Смотреть коллекцию</a>
             </div>
         </div>
         <div class="slide" style="background-image:url('{{ MEDIA_URL }}candles/banner/banner2.jpg')">
             <div class="slide-caption">
-                <h2>Ручная работа и натуральные ароматы</h2>
-                <p>Коллекции для дома и подарков.</p>
+                <h2>Ручная заливка и натуральный соевый воск</h2>
+                <p>Создаём свечи небольшими партиями с заботой о деталях.</p>
             </div>
         </div>
         <div class="slide" style="background-image:url('{{ MEDIA_URL }}candles/banner/banner3.jpg')">
             <div class="slide-caption">
                 <h2>Новинки сезона</h2>
-                <p>Откройте для себя свежие ароматы.</p>
+                <p>Откройте для себя свежие авторские ароматы.</p>
             </div>
         </div>
     </div>
@@ -53,6 +54,95 @@
             <button class="btn-buy btn-add" type="button" data-pk="{{ candle.pk }}">Купить</button>
         </div>
         {% endfor %}
+    </div>
+</section>
+
+<section class="home-section home-section--collections">
+    <div class="home-section__header">
+        <h2>Коллекции по настроению</h2>
+        <p>Выберите свечи под вечерний ритуал, подарок или уютный день дома.</p>
+    </div>
+    <div class="collections-grid">
+        <a href="{% url 'product_list' %}" class="collection-card reveal">
+            <h3>Для релакса</h3>
+            <p>Тёплые, мягкие ароматы для ванны, чтения и медитации.</p>
+        </a>
+        <a href="{% url 'product_list' %}" class="collection-card reveal">
+            <h3>Для подарка</h3>
+            <p>Эстетичная упаковка и универсальные композиции, которые понравятся каждому.</p>
+        </a>
+        <a href="{% url 'product_list' %}" class="collection-card reveal">
+            <h3>Для дома</h3>
+            <p>Чистые ароматы, которые создают атмосферу без перегруза.</p>
+        </a>
+    </div>
+</section>
+
+<section class="home-section home-section--benefits">
+    <div class="home-section__header">
+        <h2>Почему Good Karma Light</h2>
+    </div>
+    <div class="benefits-grid">
+        <div class="benefit-card reveal">
+            <h3>Натуральный соевый воск</h3>
+            <p>Свечи горят дольше, чище и раскрывают аромат мягко и деликатно.</p>
+        </div>
+        <div class="benefit-card reveal">
+            <h3>Ручная заливка</h3>
+            <p>Каждая свеча создаётся небольшими партиями с вниманием к деталям.</p>
+        </div>
+        <div class="benefit-card reveal">
+            <h3>Осознанные ароматы</h3>
+            <p>Подбираем композиции под настроение: расслабление, энергия, уют.</p>
+        </div>
+        <div class="benefit-card reveal">
+            <h3>Готовый подарок</h3>
+            <p>Красивая упаковка и продуманный дизайн — достаточно добавить открытку.</p>
+        </div>
+    </div>
+</section>
+
+<section class="home-section home-section--story">
+    <div class="home-section__header">
+        <h2>Свечи как маленький ритуал</h2>
+        <p>Мы верим, что одна свеча может изменить настроение вечера и качество отдыха.</p>
+    </div>
+    <div class="home-section__content home-section__content--steps">
+        <div class="step-card reveal">
+            <span class="step-card__label">1</span>
+            <h3>Выберите аромат</h3>
+            <p>Найдите ноты, которые откликаются именно вам — ваниль, цитрус, древесные акценты.</p>
+        </div>
+        <div class="step-card reveal">
+            <span class="step-card__label">2</span>
+            <h3>Создайте атмосферу</h3>
+            <p>Зажгите свечу, приглушите свет и позвольте пространству стать спокойнее.</p>
+        </div>
+        <div class="step-card reveal">
+            <span class="step-card__label">3</span>
+            <h3>Наслаждайтесь моментом</h3>
+            <p>Чашка чая, книга, музыка — всё остальное сделает мягкое пламя.</p>
+        </div>
+    </div>
+</section>
+
+<section class="home-section home-section--faq">
+    <div class="home-section__header">
+        <h2>Частые вопросы</h2>
+    </div>
+    <div class="faq-list">
+        <details class="faq-item">
+            <summary>Сколько горит одна свеча?</summary>
+            <p>В среднем от 25 до 40 часов в зависимости от объёма. В карточке товара указано точное время.</p>
+        </details>
+        <details class="faq-item">
+            <summary>Можно ли дарить свечу как готовый подарок?</summary>
+            <p>Да, каждая свеча упакована так, чтобы её можно было сразу вручить — достаточно добавить открытку.</p>
+        </details>
+        <details class="faq-item">
+            <summary>Используются ли натуральные компоненты?</summary>
+            <p>Мы используем соевый воск и качественные ароматические композиции, которые комфортны в быту.</p>
+        </details>
     </div>
 </section>
 {% endblock %}

@@ -6,20 +6,21 @@
     <div class="slides">
         <div class="slide is-active" style="background-image:url('{{ MEDIA_URL }}candles/banner/banner1.jpg')">
             <div class="slide-caption">
-                <h2>{% trans "Cozy Candle — уют в каждом аромате" %}</h2>
-                <p>{% trans "Тепло, свет и атмосфера — выбери свою свечу." %}</p>
+                <h2>{% trans "Good Karma Light — уют в каждом аромате" %}</h2>
+                <p>{% trans "Тепло, мягкий свет и тонкие композиции для дома и подарков." %}</p>
+                <a href="{% url 'product_list' %}" class="hero-cta-btn">{% trans "Смотреть коллекцию" %}</a>
             </div>
         </div>
         <div class="slide" style="background-image:url('{{ MEDIA_URL }}candles/banner/banner2.jpg')">
             <div class="slide-caption">
-                <h2>{% trans "Ручная работа и натуральные ароматы" %}</h2>
-                <p>{% trans "Коллекции для дома и подарков." %}</p>
+                <h2>{% trans "Ручная заливка и натуральный соевый воск" %}</h2>
+                <p>{% trans "Создаём свечи небольшими партиями с заботой о деталях." %}</p>
             </div>
         </div>
         <div class="slide" style="background-image:url('{{ MEDIA_URL }}candles/banner/banner3.jpg')">
             <div class="slide-caption">
                 <h2>{% trans "Новинки сезона" %}</h2>
-                <p>{% trans "Открой для себя свежие ароматы." %}</p>
+                <p>{% trans "Откройте свежие авторские ароматы для особенных вечеров." %}</p>
             </div>
         </div>
     </div>
@@ -38,7 +39,7 @@
         {% for candle in candles|slice:":6" %}
         <a class="card reveal" href="{% url 'product_detail' candle.pk %}">
             <div class="card-badges">
-                {% if candle.is_hit %}<span class="badge badge-hit">Хит</span>{% endif %}
+                {% if candle.is_hit %}<span class="badge badge-hit">{% trans "Хит" %}</span>{% endif %}
                 {% if candle.is_on_sale and candle.discount_percent %}<span class="badge badge-sale">-{{ candle.discount_percent }}%</span>{% endif %}
             </div>
             {% if candle.image and candle.image.url %}
@@ -51,6 +52,95 @@
             <strong>{{ candle.price }} ₴</strong>
         </a>
         {% endfor %}
+    </div>
+</section>
+
+<section class="home-section home-section--collections">
+    <div class="home-section__header">
+        <h2>{% trans "Коллекции по настроению" %}</h2>
+        <p>{% trans "Выберите свечи под вечерний ритуал, подарок или уютный день дома." %}</p>
+    </div>
+    <div class="collections-grid">
+        <a href="{% url 'product_list' %}" class="collection-card reveal">
+            <h3>{% trans "Для релакса" %}</h3>
+            <p>{% trans "Тёплые, мягкие ароматы для ванны, чтения и медитации." %}</p>
+        </a>
+        <a href="{% url 'product_list' %}" class="collection-card reveal">
+            <h3>{% trans "Для подарка" %}</h3>
+            <p>{% trans "Эстетичная упаковка и универсальные композиции, которые понравятся каждому." %}</p>
+        </a>
+        <a href="{% url 'product_list' %}" class="collection-card reveal">
+            <h3>{% trans "Для дома" %}</h3>
+            <p>{% trans "Чистые ароматы, которые создают атмосферу без перегруза." %}</p>
+        </a>
+    </div>
+</section>
+
+<section class="home-section home-section--benefits">
+    <div class="home-section__header">
+        <h2>{% trans "Почему Good Karma Light" %}</h2>
+    </div>
+    <div class="benefits-grid">
+        <div class="benefit-card reveal">
+            <h3>{% trans "Натуральный соевый воск" %}</h3>
+            <p>{% trans "Свечи горят дольше, чище и раскрывают аромат мягко и деликатно." %}</p>
+        </div>
+        <div class="benefit-card reveal">
+            <h3>{% trans "Ручная заливка" %}</h3>
+            <p>{% trans "Каждая свеча создаётся небольшими партиями с вниманием к деталям." %}</p>
+        </div>
+        <div class="benefit-card reveal">
+            <h3>{% trans "Осознанные ароматы" %}</h3>
+            <p>{% trans "Подбираем композиции под настроение: расслабление, энергия, уют." %}</p>
+        </div>
+        <div class="benefit-card reveal">
+            <h3>{% trans "Готовый подарок" %}</h3>
+            <p>{% trans "Красивая упаковка и продуманный дизайн — достаточно добавить открытку." %}</p>
+        </div>
+    </div>
+</section>
+
+<section class="home-section home-section--story">
+    <div class="home-section__header">
+        <h2>{% trans "Свечи как маленький ритуал" %}</h2>
+        <p>{% trans "Мы верим, что одна свеча может изменить настроение вечера и качество отдыха." %}</p>
+    </div>
+    <div class="home-section__content home-section__content--steps">
+        <div class="step-card reveal">
+            <span class="step-card__label">1</span>
+            <h3>{% trans "Выберите аромат" %}</h3>
+            <p>{% trans "Найдите ноты, которые откликаются именно вам — ваниль, цитрус, древесные акценты." %}</p>
+        </div>
+        <div class="step-card reveal">
+            <span class="step-card__label">2</span>
+            <h3>{% trans "Создайте атмосферу" %}</h3>
+            <p>{% trans "Зажгите свечу, приглушите свет и позвольте пространству стать спокойнее." %}</p>
+        </div>
+        <div class="step-card reveal">
+            <span class="step-card__label">3</span>
+            <h3>{% trans "Наслаждайтесь моментом" %}</h3>
+            <p>{% trans "Чашка чая, книга, музыка — всё остальное сделает мягкое пламя." %}</p>
+        </div>
+    </div>
+</section>
+
+<section class="home-section home-section--faq">
+    <div class="home-section__header">
+        <h2>{% trans "Частые вопросы" %}</h2>
+    </div>
+    <div class="faq-list">
+        <details class="faq-item">
+            <summary>{% trans "Сколько горит одна свеча?" %}</summary>
+            <p>{% trans "В среднем от 25 до 40 часов в зависимости от объёма. В карточке товара указано точное время." %}</p>
+        </details>
+        <details class="faq-item">
+            <summary>{% trans "Можно ли дарить свечу как готовый подарок?" %}</summary>
+            <p>{% trans "Да, каждая свеча упакована так, чтобы её можно было сразу вручить — достаточно добавить открытку." %}</p>
+        </details>
+        <details class="faq-item">
+            <summary>{% trans "Используются ли натуральные компоненты?" %}</summary>
+            <p>{% trans "Мы используем соевый воск и качественные ароматические композиции, которые комфортны в быту." %}</p>
+        </details>
     </div>
 </section>
 {% endblock %}
