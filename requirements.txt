@@ -2,3 +2,4 @@ python-dotenv
 Django==6.0.1
 mysqlclient
 Pillow
+gunicorn
