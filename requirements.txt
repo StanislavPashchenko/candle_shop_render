@@ -1,5 +1,5 @@
 python-dotenv
-Django==6.0.1
+Django==4.2.11
 mysqlclient
 Pillow
 gunicorn
