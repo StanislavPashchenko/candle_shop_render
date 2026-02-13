@@ -3,4 +3,4 @@ Django==4.2.11
 mysqlclient
 Pillow
 gunicorn
-requirements.txt
+whitenoise
