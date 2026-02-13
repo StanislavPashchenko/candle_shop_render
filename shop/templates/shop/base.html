@@ -106,6 +106,41 @@
     </div>
 </main>
 
+<nav class="mobile-bottom-nav" aria-label="{% trans "Навигация" %}">
+    <a class="mobile-bottom-nav__item" href="{% url 'home' %}">
+        <svg class="mobile-bottom-nav__icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M3 10.5L12 3l9 7.5V21a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1V10.5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+        </svg>
+        <span class="mobile-bottom-nav__label">{% trans "Главная" %}</span>
+    </a>
+    <a class="mobile-bottom-nav__item" href="{% url 'product_list' %}">
+        <svg class="mobile-bottom-nav__icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M8 6h13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M3 6h.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            <path d="M8 12h13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M3 12h.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            <path d="M8 18h13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M3 18h.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <span class="mobile-bottom-nav__label">{% trans "Все товары" %}</span>
+    </a>
+    <button class="mobile-bottom-nav__item" type="button" data-action="mobile-bottom-categories">
+        <svg class="mobile-bottom-nav__icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M4 5h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M4 12h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M4 19h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <span class="mobile-bottom-nav__label">{% trans "Категории" %}</span>
+    </button>
+    <button class="mobile-bottom-nav__item" type="button" data-action="toggle-search" aria-label="{% trans "Поиск" %}">
+        <svg class="mobile-bottom-nav__icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16Z" stroke="currentColor" stroke-width="2"/>
+            <path d="M21 21l-4.3-4.3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <span class="mobile-bottom-nav__label">{% trans "Поиск" %}</span>
+    </button>
+</nav>
+
 <footer class="site-footer">
     <p>© 2026 Cozy Candle</p>
 </footer>

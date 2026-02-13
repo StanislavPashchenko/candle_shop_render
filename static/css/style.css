@@ -1297,6 +1297,13 @@ body{
 
 
 
+ .mobile-bottom-nav{display:none}
+ 
+ .mobile-bottom-nav__item{appearance:none; border:0; background:transparent; cursor:pointer; font:inherit}
+ 
+ .mobile-bottom-nav__icon{display:block}
+
+
 @media (max-width:920px){
 
     .nav-search input{min-width:110px}
@@ -1315,6 +1322,66 @@ body{
 
     .category-scroll{display:none}
 
+    .category-bar{background:transparent; border-bottom:0}
+
+    .category-bar .container{padding-top:0; padding-bottom:0}
+
+    .category-top{padding:0; margin:0}
+
+    .category-top li.category-mobile-only > a{display:none}
+
+    .category-top .cat-toggle{display:none}
+
+    .category-top .search-toggle{display:none}
+
+    body{padding-bottom:74px}
+
+    .mobile-bottom-nav{
+        position:fixed;
+        left:0;
+        right:0;
+        bottom:0;
+        z-index:9997;
+        display:flex;
+        align-items:stretch;
+        justify-content:space-around;
+        gap:2px;
+        padding:8px 8px calc(8px + env(safe-area-inset-bottom));
+        background:rgba(255,255,255,0.92);
+        backdrop-filter: blur(14px);
+        border-top:1px solid rgba(0,0,0,0.08);
+        box-shadow:none;
+    }
+
+    .mobile-bottom-nav__item{
+        flex:1 1 0;
+        min-width:0;
+        padding:8px 6px;
+        border-radius:12px;
+        text-align:center;
+        text-decoration:none;
+        color:rgba(15, 23, 42, 0.66);
+        font-weight:600;
+        font-size:0.72rem;
+        line-height:1.1;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        gap:4px;
+        border:0;
+        background:transparent;
+        box-shadow:none;
+        transition: background 120ms ease, color 120ms ease, transform 120ms ease;
+    }
+
+    .mobile-bottom-nav__icon{color:currentColor}
+
+    .mobile-bottom-nav__label{display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:100%}
+
+    .mobile-bottom-nav__item:active{background: rgba(15, 23, 42, 0.06)}
+
+    .mobile-bottom-nav__item:hover{background: rgba(15, 23, 42, 0.04)}
 }
 
 

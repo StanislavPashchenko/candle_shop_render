@@ -235,6 +235,17 @@
         close();
     });
 })();
+
+// Mobile bottom navigation (categories shortcut)
+(function(){
+    document.addEventListener('click', function(e){
+        const btn = e.target.closest('[data-action="mobile-bottom-categories"]');
+        if(!btn) return;
+        e.preventDefault();
+        const toggle = document.querySelector('[data-action="toggle-categories"]');
+        if(toggle) toggle.click();
+    });
+})();
 // Add-to-cart visual feedback
 (function(){
     function animateAdd(btn){
